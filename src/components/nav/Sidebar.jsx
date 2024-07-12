@@ -8,7 +8,7 @@ export default function(props) {
     const {className, onClose} = props
     const location = useLocation()
     const navigate = useNavigate()
-    return <div className={`fixed flex flex-col right-0 h-full w-6/12 bg-gray-900 ${className}`}>
+    return <div className={`fixed flex flex-col right-0 h-full w-6/12 bg-gray-theme ${className}`}>
         <div className={`flex justify-start px-2 py-5 mb-1`} onClick={onClose}>
             <XSVG className={`fill-white h-8 w-8 cursor-pointer`} />
         </div>
