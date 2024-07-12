@@ -1,9 +1,9 @@
-// import EventsLayout from "./components/layout/EventsLayout"
+import EventsLayout from "./components/layout/EventsLayout"
 
 function App() {
   return (
     <>
-      {/* <EventsLayout /> */}
+      <EventsLayout />
     </>
   )
 }
