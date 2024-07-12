@@ -2,6 +2,7 @@ import { useState } from "react"
 
 import Header from  "../nav/Header"
 import SideBar from "../nav/Sidebar"
+import Footer from "../nav/Footer"
 
 export default function(props) {
     const [showSideBar, setSideBarStatus] = useState(false)
@@ -12,8 +13,9 @@ export default function(props) {
         setSideBarStatus(false)
     }
     return <div {...props}>
-        <Header className={`fixed top-2 w-screen`} hideNavScreenSize={`lg`} openSideBar={setSideBarStatus}/>
+        <Header className={`fixed top-0 w-screen`} openSideBar={openSideBar}/>
         <SideBar className={`lg:hidden ${showSideBar?'flex':'hidden'}`} onClose={closeSideBar}/>
         {props.children}
+        <Footer className={`mt-80`}/>
     </div>
 }
