@@ -4,7 +4,13 @@ import CardData from "../speakerCardContainer/CardData";
 import { useState } from "react";
 import Reason from "./Reason";
 import Timeline from "./Timeline";
-
+import executives from "../../assets/executives.jpg";
+import startup from "../../assets/startup.jpg";
+import investors from "../../assets/investors.jpg";
+import SponsorCard from "./SponsorCard";
+import Sponsors from "./Sponsors";
+import sponsor1 from "../../assets/seaclock.svg";
+import sponsor2 from "../../assets/crompton.svg";
 export default function MainContent() {
   const [visibleCards, setVisibleCards] = useState(3);
   const handleViewMore = () => {
@@ -121,7 +127,7 @@ export default function MainContent() {
         </div>
 
         {/* why attend future tech AI summit */}
-        <div className="flex flex-col w-full items-center justify-center space-y-8 mt-[75px] ">
+        <div className="flex flex-col w-full items-center justify-center mt-[75px] ">
           <div className="px-[40px] py-[15px] text-center text-[45px] text-black font-bold rounded-full">
             Why Attend FutureTech AI Summit?
           </div>
@@ -130,11 +136,95 @@ export default function MainContent() {
       </div>
 
       {/* timeline section */}
-      <div className="flex flex-col w-full items-center justify-center space-y-8 mt-[75px] ">
+      <div className="flex flex-col w-full items-center justify-center  mt-[75px] ">
         <div className="px-[40px] py-[15px] text-center text-[45px] text-black font-bold rounded-full">
           Timeline
         </div>
         <Timeline />
+      </div>
+
+      {/* who should attend section */}
+      <div className="mt-[75px]">
+        <p className="text-black text-[35px] md:text-[48px] font-bold text-center">
+          Who Should Attend
+        </p>
+        <div className="flex flex-wrap gap-[16px] mt-10 items-center justify-center">
+          <div className="bg-black w-full p-3 flex justify-center flex-wrap">
+            <div className="flex flex-col items-center justify-center p-3">
+              <img
+                src={executives}
+                alt="participant_image"
+                className="h-[300px] w-[250px] md:h-[250px] md:w-[300px] lg:h-[350px] lg:w-[300px]"
+              />
+              <p className="text-white  text-md font-semibold text-center p-4">
+                Corporate Executives{" "}
+              </p>
+            </div>
+            <div className="flex flex-col items-center justify-center p-3">
+              <img
+                src={startup}
+                alt="participant_image"
+                className="h-[300px] w-[250px] md:h-[250px] md:w-[300px] lg:h-[350px] lg:w-[300px]"
+              />
+              <p className="text-white text-md font-semibold text-center p-4">
+                Startup Entrepreneurs & Collaborators{" "}
+              </p>
+            </div>
+            <div className="flex flex-col items-center justify-center p-3">
+              <img
+                src={investors}
+                alt="participant_image"
+                className="h-[300px] w-[250px] md:h-[250px] md:w-[300px] lg:h-[350px] lg:w-[300px]"
+              />
+              <p className="text-white text-md font-semibold text-center p-4">
+                Investors & Venture Capitalists{" "}
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* sponsorship oppurtunites section */}
+        <div className="bg-[#F9F9F9] h-auto w-full p-4 mt-[75px]">
+          <p className="text-black text-[35px] text-center font-bold lg:text-[48px]">
+            Sponsorship Oppurtunities
+          </p>
+          <div className="flex flex-wrap p-[35px] gap-8 items-center justify-center ">
+            {Sponsors.map((card, index) => (
+              <SponsorCard
+                key={index}
+                title={card.title}
+                amount={card.amount}
+                details={card.details}
+                backgroundColor={card.backgroundColor}
+                index={index}
+              />
+            ))}
+          </div>
+        </div>
+
+        {/* sponsors list section */}
+        {/* need to loop content - pending */}
+        <div className="mt-[75px]">
+          <p className="text-black text-[35px] text-center font-bold lg:text-[48px]">
+            Our Sponsors
+          </p>
+          <div className="flex flex-wrap gap-4  mt-[50px] items-center justify-center">
+            <div className="max-w-fit rounded-full h-auto border-2 border-black p-3">
+              <img src={sponsor1} alt="sponsor1" />
+            </div>
+            <div className="max-w-fit rounded-full h-auto border-2 border-black p-3">
+              <img src={sponsor1} alt="sponsor1" />
+            </div>
+            <div className="max-w-fit rounded-full h-auto border-2 border-black p-3">
+              <img src={sponsor1} alt="sponsor1" />
+            </div>
+            <div className="max-w-fit rounded-full h-auto border-2 border-black p-3">
+              <img src={sponsor1} alt="sponsor2" />
+            </div>
+            <div className="max-w-fit rounded-full h-auto border-2 border-black p-3">
+              <img src={sponsor1} alt="sponsor2" />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
