@@ -67,15 +67,15 @@ export default function (props) {
             <div className={`inline-block w-2 h-2 mr-2`}>
               <CircleSVG
                 className={`${
-                  location.pathname === "/events" ? "block" : "hidden"
+                  location.pathname === "/hackathon" ? "block" : "hidden"
                 }`}
               />
             </div>
             <span
-              onClick={() => navigate("/events")}
+              onClick={() => navigate("/hackathon")}
               className={`cursor-pointer`}
             >
-              Events
+              Hackathon
             </span>
           </li>
           <li className={`flex-1 text-center text-white font-bold text-2xl`}>

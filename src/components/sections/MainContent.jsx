@@ -10,7 +10,6 @@ import investors from "../../assets/investors.jpg";
 import SponsorCard from "./SponsorCard";
 import Sponsors from "./Sponsors";
 import sponsor1 from "../../assets/seaclock.svg";
-import sponsor2 from "../../assets/crompton.svg";
 export default function MainContent() {
   const [visibleCards, setVisibleCards] = useState(3);
   const handleViewMore = () => {
