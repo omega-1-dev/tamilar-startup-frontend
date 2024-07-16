@@ -15,7 +15,7 @@ export default function (props) {
   return (
     <div {...props}>
       <Header
-        className={`fixed top-0 w-screen z-10`}
+        className={`fixed top-0 w-screen`}
         openSideBar={openSideBar}
       />
       <SideBar
