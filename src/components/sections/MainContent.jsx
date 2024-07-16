@@ -22,7 +22,7 @@ export default function MainContent() {
 
   return (
     <div>
-      <div className="flex items-center justify-center lg:flex-row flex-col lg:gap-[4rem] gap-8 lg:pt-[60px] m-4">
+      <div className="flex items-center justify-center lg:flex-row flex-col lg:gap-[4rem] gap-8 lg:pt-[60px] m-4 lg:max-w-screen-xl mx-auto">
         <div className="flex flex-col items-center justify-center">
           <p className="font-bold text-[48px] text-[#3945EF] lg:leading-[64px] text-center">
             800+
@@ -79,14 +79,14 @@ export default function MainContent() {
 
       {/* about the event section */}
 
-      <div className="flex flex-col w-full items-center justify-center space-y-8  py-[50px]">
+      <div className="flex flex-col w-full items-center justify-center space-y-8  py-[50px] ">
         <div className="p-[20px] text-center text-[45px] font-bold text-black rounded-full">
           About the Event
         </div>
 
         {/* content section */}
-        <div className="w-auto p-2 md:w-[800px] lg:w-[900px] text-justify text-[20px] tracking-normal font-normal">
-          <p className="text-[#828282] font-semibold items-center justify-center">
+        <div className="w-auto p-2 lg:max-w-screen-xl mx-auto text-justify text-[20px] tracking-normal font-normal ">
+          <p className="text-[#828282] font-semibold items-center justify-center p-2 lg:p-1">
             Future Tech presents its flagship event, the AI Summit & Expo 2024,
             a groundbreaking conference designed to catalyze innovation and
             empower entrepreneurs across India's diverse landscape. This
@@ -101,7 +101,7 @@ export default function MainContent() {
       </div>
 
       {/* speakers section */}
-      <div className="flex flex-col w-full items-center justify-center space-y-8 mt-[75px] ">
+      <div className="flex flex-col w-full items-center justify-center space-y-8 mt-[75px] lg:max-w-screen-xl mx-auto">
         <div className="px-[40px] py-[15px] text-center text-[45px] text-black font-bold rounded-full">
           Speakers
         </div>
@@ -127,8 +127,8 @@ export default function MainContent() {
         </div>
 
         {/* why attend future tech AI summit */}
-        <div className="flex flex-col w-full items-center justify-center mt-[75px] ">
-          <div className="px-[40px] py-[15px] text-center text-[45px] text-black font-bold rounded-full">
+        <div className="flex flex-col w-full items-center justify-center mt-[75px] lg:max-w-screen-xl mx-auto">
+          <div className=" py-[15px] text-center text-[45px] text-black font-bold rounded-full">
             Why Attend FutureTech AI Summit?
           </div>
           <Reason />
@@ -136,16 +136,16 @@ export default function MainContent() {
       </div>
 
       {/* timeline section */}
-      <div className="flex flex-col w-full items-center justify-center  mt-[75px] ">
-        <div className="px-[40px] py-[15px] text-center text-[45px] text-black font-bold rounded-full">
+      <div className="flex flex-col w-full items-center justify-center  mt-[75px] lg:max-w-screen-xl mx-auto">
+        <div className=" py-[15px] text-center text-[45px] text-black font-bold rounded-full">
           Timeline
         </div>
         <Timeline />
       </div>
 
       {/* who should attend section */}
-      <div className="mt-[75px]">
-        <p className="text-black text-[35px] md:text-[48px] font-bold text-center">
+      <div className="mt-[75px] ">
+        <p className="text-black text-[35px] md:text-[48px] font-bold text-center lg:max-w-screen-xl mx-auto">
           Who Should Attend
         </p>
         <div className="flex flex-wrap gap-[16px] mt-10 items-center justify-center">
@@ -183,7 +183,7 @@ export default function MainContent() {
           </div>
         </div>
         {/* sponsorship oppurtunites section */}
-        <div className="bg-[#F9F9F9] h-auto w-full p-4 mt-[75px]">
+        <div className="bg-[#F9F9F9] h-auto w-full p-4 mt-[75px] lg:max-w-screen-xl mx-auto">
           <p className="text-black text-[35px] text-center font-bold lg:text-[48px]">
             Sponsorship Oppurtunities
           </p>
@@ -203,7 +203,7 @@ export default function MainContent() {
 
         {/* sponsors list section */}
         {/* need to loop content - pending */}
-        <div className="mt-[75px]">
+        <div className="mt-[75px] lg:max-w-screen-xl mx-auto">
           <p className="text-black text-[35px] text-center font-bold lg:text-[48px]">
             Our Sponsors
           </p>

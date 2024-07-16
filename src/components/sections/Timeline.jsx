@@ -4,11 +4,11 @@ import YellowSVG from "../../assets/svg_components/circle/yellow";
 import TimelineData from "./TimelineData";
 export default function Timeline() {
   return (
-    <div>
+    <div className={`-z-50`}>
       <div className="grid grid-cols-1 p-3 lg:grid-cols-2 gap-6 ">
         {TimelineData.map((item, index) => (
           <div key={index} className="relative">
-            <TimeLineSVG className="w-full h-[120px] md:h-[120px] lg:h-[130px] z-1" />
+            <TimeLineSVG className="w-full h-[120px] md:h-[120px] lg:h-[130px] " />
             <div className="absolute inset-0 flex items-center justify-start space-x-4 p-4">
               <div className="relative w-16 h-16 z-3 flex-shrink-0">
                 <YellowSVG className="w-full h-full" />
