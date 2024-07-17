@@ -1,4 +1,4 @@
-import HeroTextIMG from "../../assets/hero_text.png";
+import HeroTextIMG from "../../assets/fat.png";
 import herovid from "../../assets/hero_section_vid.mp4";
 import CalendarSVG from "../../assets/svg_components/calendar/one";
 import LocatonSVG from "../../assets/svg_components/location/one";
@@ -23,7 +23,7 @@ export default function () {
         className={`flex flex-col h-screen w-full justify-center items-center p-5 lg:p-0`}
       >
         <div className={`text-6xl text-white font-bold `}>
-          Biggest Design Cohort powered by
+          Future Tech AI Summit-2024
         </div>
         <img className={`my-10`} src={HeroTextIMG} />
         <div className={`flex mb-8`}>
@@ -31,7 +31,7 @@ export default function () {
             <p className={`pr-1`}>
               <CalendarSVG className={`h-10 w-10`} />
             </p>
-            <span className={`text-white font-bold text-2xl`}>17 Jul 2024</span>
+            <span className={`text-white font-bold text-2xl`}>10 Aug 2024</span>
           </div>
           <div className={`flex items-center`}>
             <p className={`pr-1`}>

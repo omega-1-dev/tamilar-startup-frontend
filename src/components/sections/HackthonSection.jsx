@@ -8,6 +8,9 @@ import MinusSVG from "../../assets/svg_components/extra/minus";
 import TimerSvg from "../../assets/svg_components/Timer/timer";
 import CountDownTimer from "./CountDownTimer";
 import HackthonRegistration from "./HackthonRegistration";
+import tamilar from "../../assets/tamilar.jpg";
+import growbinar from "../../assets/growbinar.png";
+
 export default function HackthonSection() {
   const [openIndex, setOpenIndex] = useState(null);
   const targetDate = "2024-07-31T23:59:59";
@@ -21,11 +24,25 @@ export default function HackthonSection() {
   return (
     <div>
       {/* organizers section */}
-      <div className="pt-24 pb-12 md:pt-[60px]  content-center">
+      <div className="pt-24 pb-12 md:pt-[60px] content-center">
         <p class="max-w-6xl mx-auto text-black text-[35px] font-bold text-center mb-5">
           Organizers
         </p>
-        <div className="max-w-sm md:max-w-4xl mx-auto grid gap-2 grid-cols-4 md:grid-cols-4">
+        <div className="max-w-sm md:max-w-4xl mx-auto grid gap-8 grid-cols-4 md:grid-cols-4">
+          <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
+            <img src={tamilar} className={`max-w-full fill-current`} />
+          </div>
+          <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
+            <img src={growbinar} className={`max-w-full fill-current`} />
+          </div>
+
+          {/* <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
+            <img
+              src={stripe}
+              alt="sponsor1"
+              className="max-w-full fill-current"
+            />
+          </div>
           <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
             <img
               src={samsung}
@@ -39,21 +56,7 @@ export default function HackthonSection() {
               alt="sponsor1"
               className="max-w-full fill-current"
             />
-          </div>
-          <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
-            <img
-              src={samsung}
-              alt="sponsor1"
-              className="max-w-full fill-current"
-            />
-          </div>
-          <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
-            <img
-              src={stripe}
-              alt="sponsor1"
-              className="max-w-full fill-current"
-            />
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -70,7 +73,9 @@ export default function HackthonSection() {
         <div className="absolute top-0 left-0 w-full -z-10 hidden xl:block">
           <TimerSvg className="w-full h-full  object-cover" />
         </div>
-        <div className={ `absolute top-0 w-full [height:inherit]  -z-10 xl:hidden bg-gradient-to-br from-purple-theme to-fuchsia-400 t o-cyan-300`}></div>
+        <div
+          className={`absolute top-0 w-full [height:inherit]  -z-10 xl:hidden bg-gradient-to-br from-purple-theme to-fuchsia-400 t o-cyan-300`}
+        ></div>
       </div>
 
       {/* map section  */}

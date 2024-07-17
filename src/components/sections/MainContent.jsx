@@ -9,7 +9,10 @@ import startup from "../../assets/startup.jpg";
 import investors from "../../assets/investors.jpg";
 import SponsorCard from "./SponsorCard";
 import Sponsors from "./Sponsors";
-import sponsor1 from "../../assets/seaclock.svg";
+import sponsor1 from "../../assets/sponsor1.svg";
+import rtr from "../../assets/rtr.jpg";
+import jci from "../../assets/jci.jpg";
+import sts from "../../assets/out1.jpg";
 export default function MainContent() {
   const [visibleCards, setVisibleCards] = useState(3);
   const handleViewMore = () => {
@@ -204,23 +207,48 @@ export default function MainContent() {
         {/* need to loop content - pending */}
         <div className="mt-[75px] lg:max-w-screen-xl mx-auto">
           <p className="text-black text-[35px] text-center font-bold lg:text-[48px]">
-            Our Sponsors
+            Platinum Sponsors
           </p>
           <div className="flex flex-wrap gap-4  mt-[50px] items-center justify-center">
             <div className="max-w-fit rounded-full h-auto border-2 border-black p-3">
               <img src={sponsor1} alt="sponsor1" />
             </div>
-            <div className="max-w-fit rounded-full h-auto border-2 border-black p-3">
-              <img src={sponsor1} alt="sponsor1" />
+          </div>
+        </div>
+
+        <div className="mt-[75px] lg:max-w-screen-xl mx-auto">
+          <p className="text-black text-[35px] text-center font-bold lg:text-[48px]">
+            Associate Sponsors
+          </p>
+          <div className="flex flex-wrap gap-4  mt-[50px] items-center justify-center">
+            <div className="w-48 h-48 border-2 border-black p-3">
+              <img
+                src={rtr}
+                alt="sponsor1"
+                className="object-contain w-full h-full"
+              />
             </div>
-            <div className="max-w-fit rounded-full h-auto border-2 border-black p-3">
-              <img src={sponsor1} alt="sponsor1" />
+            <div className="w-48 h-48 border-2 border-black p-3">
+              <img
+                src={jci}
+                alt="sponsor1"
+                className="object-contain w-full h-full"
+              />
             </div>
-            <div className="max-w-fit rounded-full h-auto border-2 border-black p-3">
-              <img src={sponsor1} alt="sponsor2" />
-            </div>
-            <div className="max-w-fit rounded-full h-auto border-2 border-black p-3">
-              <img src={sponsor1} alt="sponsor2" />
+          </div>
+        </div>
+
+        <div className="mt-[75px] lg:max-w-screen-xl mx-auto">
+          <p className="text-black text-[35px] text-center font-bold lg:text-[48px]">
+            Outreach Sponsors
+          </p>
+          <div className="flex flex-wrap gap-4  mt-[50px] items-center justify-center">
+            <div className="w-48 h-48 border-2 border-black p-3">
+              <img
+                src={sts}
+                alt="sponsor1"
+                className="object-contain w-full h-full"
+              />
             </div>
           </div>
         </div>
