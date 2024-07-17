@@ -5,11 +5,11 @@ import MainContent from "./components/sections/MainContent";
 function App() {
   return (
     <>
-      <EventsLayout />
-      {/* <Routes>
+      {/* <EventsLayout /> */}
+      <Routes>
         <Route path="/hackathon" element={<EventsLayout props="hackathon" />} />
         <Route path="*" element={<EventsLayout props="mainContent" />} />
-      </Routes> */}
+      </Routes>
     </>
   );
 }

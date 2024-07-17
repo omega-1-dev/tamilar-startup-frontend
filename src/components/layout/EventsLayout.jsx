@@ -7,9 +7,7 @@ export default function (props) {
   return (
     <AppLayout>
       <Hero />
-      {/* {props === "mainContent" ? <MainContent /> : <HackthonSection />} */}
-      <HackthonSection />
-      {/* //  <MainContent /> */}
+      {props.props === "mainContent" ? <MainContent /> : <HackthonSection />}
     </AppLayout>
   );
 }
