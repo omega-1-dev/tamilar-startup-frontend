@@ -58,22 +58,23 @@ export default function HackthonSection() {
       </div>
 
       {/* hackathon timer section */}
-      <div className="relative w-full h-[500px] lg:h-[700px]">
-        <div className="absolute top-0 left-0 w-full h-full z-20 flex items-center justify-center">
-          <p className="text-2xl text-white text-center font-bold">
+      <div className="relative w-full h-[500px] lg:h-[700px] -z-30 ">
+        <div className="flex flex-col items-center justify-center w-full h-full  lg:max-w-screen-xl mx-auto">
+          <p className="text-4xl text-white text-center font-bold mb-10">
             Registration ends soon! Hurry up and Register!
           </p>
+          <div className="relative  flex items-center justify-center w-full ">
+            <CountDownTimer targetDate={targetDate} />
+          </div>
         </div>
-        <div className="absolute top-0 left-0 w-full h-full z-10">
-          <TimerSvg className="w-full h-full object-cover" />
+        <div className="absolute top-0 left-0 w-full -z-10 hidden xl:block">
+          <TimerSvg className="w-full h-full  object-cover" />
         </div>
-        <div className="relative z-30 flex items-center justify-center w-full h-full">
-          <CountDownTimer targetDate={targetDate} />
-        </div>
+        <div className={ `absolute top-0 w-full [height:inherit]  -z-10 xl:hidden bg-gradient-to-br from-purple-theme to-fuchsia-400 t o-cyan-300`}></div>
       </div>
 
       {/* map section  */}
-      <div className="pt-24 pb-12 md:pt-[60px] relative">
+      <div className="pt-24 pb-12 md:pt-[60px] relative -z-30">
         <p className="max-w-6xl mx-auto text-black text-[35px] font-bold text-center mb-5">
           AI SUMMIT & EXPO 2024
         </p>
