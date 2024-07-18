@@ -12,7 +12,7 @@ const Sponsors = [
   },
   {
     title: "PLATINUM",
-    amount: "100k",
+    amount: "150k",
     details: [
       "Speaking slot in main conference",
       "Primary logo placement in all event collaterals & website",
@@ -25,7 +25,7 @@ const Sponsors = [
   },
   {
     title: "GOLD",
-    amount: "75k",
+    amount: "100k",
     details: [
       "Logo featured prominently on website & event backdrop",
       "5 Dedicated Social media post",

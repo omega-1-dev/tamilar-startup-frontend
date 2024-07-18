@@ -27,7 +27,7 @@ export default function MainContent() {
       <div className="flex items-center justify-center lg:flex-row flex-col lg:gap-[4rem] gap-8 lg:pt-[60px] m-4 lg:max-w-screen-xl mx-auto">
         <div className="flex flex-col items-center justify-center">
           <p className="font-bold text-[48px] text-[#3945EF] lg:leading-[64px] text-center">
-            800+
+            100+
           </p>
           <p className="text-[30px] lg:leading-[64px] font-normal text-[#828282]">
             Attendees
@@ -38,7 +38,7 @@ export default function MainContent() {
 
         <div className="flex flex-col items-center justify-center">
           <p className="font-bold text-[48px] text-[#3945EF] leading-[64px] text-center">
-            45+
+            25+
           </p>
           <p className="text-[30px] leading-[64px] font-normal text-[#828282] ">
             Speakers
@@ -60,23 +60,13 @@ export default function MainContent() {
 
         <div className="flex flex-col items-center justify-center">
           <p className="font-bold text-[48px] text-[#3945EF] leading-[64px] text-center">
-            25+
+            50+
           </p>
           <p className="text-[30px] leading-[64px] text-[#828282] font-normal">
             Stalls
           </p>
         </div>
 
-        <div className="hidden lg:block divider"></div>
-
-        <div className="flex flex-col items-center justify-center">
-          <p className="font-bold text-[48px] text-[#3945EF] leading-[64px] text-center">
-            20+
-          </p>
-          <p className="text-[30px] leading-[64px] text-[#828282] font-normal">
-            Sponsors
-          </p>
-        </div>
       </div>
 
       {/* about the event section */}
@@ -200,7 +190,7 @@ export default function MainContent() {
                 index={index}
               />
             ))}
-          </div>
+          </div>  
         </div>
 
         {/* sponsors list section */}
