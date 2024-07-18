@@ -35,7 +35,7 @@ export default function(props) {
                         <CircleSVG className={`${location.pathname==='/events'?'block':'hidden'}`}/>
                     </div>
                     <span onClick={()=>navigate('/events')} className={`cursor-pointer`}>
-                        Events
+                        Hackathon
                     </span>
                 </li>
                 <li className={` text-start text-white font-bold text-xl`}>
