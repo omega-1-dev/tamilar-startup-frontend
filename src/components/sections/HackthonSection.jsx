@@ -6,6 +6,7 @@ import FAQ from "./FAQ";
 import PlusSVG from "../../assets/svg_components/extra/plus";
 import MinusSVG from "../../assets/svg_components/extra/minus";
 import TimerSvg from "../../assets/svg_components/Timer/timer";
+import HackathonCardSVG from "../../assets/svg_components/hackathoncard/one";
 import CountDownTimer from "./CountDownTimer";
 import HackthonRegistration from "./HackthonRegistration";
 import tamilar from "../../assets/tamilar.jpg";
@@ -23,17 +24,22 @@ export default function HackthonSection() {
   };
   return (
     <div>
+      {/* hacksthon card */}
+      <div className={`lg:max-w-screen-xl  mx-auto text-center mt-10`}>
+          <HackathonCardSVG className={`mx-auto`} />
+      </div>
+
       {/* organizers section */}
       <div className="pt-24 pb-12 md:pt-[60px] content-center">
         <p class="max-w-6xl mx-auto text-black text-[35px] font-bold text-center mb-5">
           Organizers
         </p>
-        <div className="max-w-sm md:max-w-4xl mx-auto grid gap-8 grid-cols-4 md:grid-cols-4">
+        <div className="max-w-sm md:max-w-4xl mx-auto  gap-8 grid-cols-2 md:grid-cols-4 text-center flex items-center justify-center">
           <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
-            <img src={tamilar} className={`max-w-full fill-current`} />
+            <img src={tamilar} className={`max-w-full fill-current h-32 w-98`} />
           </div>
           <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
-            <img src={growbinar} className={`max-w-full fill-current`} />
+            <img src={growbinar} className={`max-w-full fill-current h-32 w-98`} />
           </div>
 
           {/* <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
