@@ -15,9 +15,9 @@ export default function Reason() {
             <SettingSVG className="h-7 w-7 mx-auto md:mx-0" />
             <div className="">
               <p className="text-center md:text-left font-bold text-[18px] text-black">
-                Networking Opportunities
+                Cutting-Edge Insights
               </p>
-              <p className="text-[16px] text-[#12141D] font-semibold leading-[26px] tracking-tight text-center md:text-justify ">
+              <p className="text-[16px] text-[#12141D] font-semibold leading-[26px] tracking-tight text-justify md:text-justify ">
                 Dive into the latest advancements in AI and technology with
                 keynote speeches, panel discussions, and presentations from
                 industry leaders and innovators.
@@ -33,7 +33,7 @@ export default function Reason() {
               <p className="text-center md:text-left font-bold text-[18px] text-black">
                 Networking Opportunities
               </p>
-              <p className="text-[16px] text-[#12141D] font-semibold leading-[26px] tracking-tight text-center md:text-justify">
+              <p className="text-[16px] text-[#12141D] font-semibold leading-[26px] tracking-tight text-justify md:text-justify">
                 Connect with like-minded professionals, industry experts,
                 startups, and investors. Forge valuable relationships that can
                 propel your career and business forward.
@@ -47,12 +47,12 @@ export default function Reason() {
             <InnovationSVG className="h-7 w-7 mx-auto md:mx-0" />
             <div className="">
               <p className="text-center md:text-left font-bold text-[18px] text-black">
-                Networking Opportunities
+                Innovative Showcases
               </p>
-              <p className="text-[16px] text-[#12141D] font-semibold leading-[26px] tracking-tight text-center md:text-justify">
-                Connect with like-minded professionals, industry experts,
-                startups, and investors. Forge valuable relationships that can
-                propel your career and business forward.
+              <p className="text-[16px] text-[#12141D] font-semibold leading-[26px] tracking-tight text-justify md:text-justify">
+                Explore groundbreaking products and solutions from leading
+                companies and startups. Witness live demos and tech showcases
+                that highlight the future of AI and its applications.
               </p>
             </div>
           </div>
@@ -65,7 +65,7 @@ export default function Reason() {
               <p className="text-center md:text-left font-bold text-[18px] text-black">
                 Startup and Investor Interaction
               </p>
-              <p className="text-[16px] text-[#12141D] font-semibold leading-[26px] tracking-tight text-center md:text-justify">
+              <p className="text-[16px] text-[#12141D] font-semibold leading-[26px] tracking-tight text-justify md:text-justify">
                 Startups can pitch their ideas to potential investors and
                 partners. Investors can discover the next big innovation and
                 promising ventures in the AI ecosystem.
@@ -81,7 +81,7 @@ export default function Reason() {
               <p className="text-center md:text-left font-bold text-[18px] text-black">
                 Competitive Hackathon
               </p>
-              <p className="text-[16px] text-[#12141D] font-semibold leading-[26px] tracking-tight text-center md:text-justify">
+              <p className="text-[16px] text-[#12141D] font-semibold leading-[26px] tracking-tight text-justify md:text-justify">
                 Join the Future Tech Hackathon AI Hackathon 2024 to solve
                 real-world challenges. Collaborate with talented individuals and
                 compete for exciting prizes.
@@ -97,7 +97,7 @@ export default function Reason() {
               <p className="text-center md:text-left font-bold text-[18px] text-black">
                 Innovative and Diverse Stalls Showcase
               </p>
-              <p className="text-[16px] text-[#12141D] font-semibold leading-[26px] tracking-tight text-center md:text-justify">
+              <p className="text-[16px] text-[#12141D] font-semibold leading-[26px] tracking-tight text-justify md:text-justify">
                 Explore a variety of stalls showcasing innovative products,
                 services, and solutions from different sectors. From
                 cutting-edge tech demonstrations to interactive displays,

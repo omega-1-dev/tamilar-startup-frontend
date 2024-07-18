@@ -14,10 +14,7 @@ export default function (props) {
   };
   return (
     <div {...props}>
-      <Header
-        className={`fixed top-0 w-screen`}
-        openSideBar={openSideBar}
-      />
+      <Header className={`fixed top-0 w-screen`} openSideBar={openSideBar} />
       <SideBar
         className={`lg:hidden ${showSideBar ? "flex" : "hidden"}`}
         onClose={closeSideBar}

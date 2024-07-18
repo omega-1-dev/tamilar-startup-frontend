@@ -1,6 +1,9 @@
 import React from "react";
 
 export default function HackthonRegistration() {
+  const handleClick = () => {
+    window.location.href = "https://forms.gle/T3TCHCm8mELKsopN8";
+  };
   return (
     <div className="mt-[75px]">
       <div className="bg-gradient-to-r from-violet-500 to-fuchsia-500">
@@ -14,7 +17,10 @@ export default function HackthonRegistration() {
               </p>
             </div>
             <a href="https://forms.gle/usCSaXfGN6hGxm9B9">
-              <button className="text-md text-white bg-black rounded-lg font-bold p-3 lg:p-4">
+              <button
+                onClick={handleClick}
+                className="text-md text-white bg-black rounded-lg font-bold p-3 lg:p-4"
+              >
                 Register!
               </button>
             </a>

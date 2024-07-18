@@ -1,7 +1,7 @@
 import about from "../../assets/about_event.png";
 import CardContainer from "../speakerCardContainer/CardContainer";
 import CardData from "../speakerCardContainer/CardData";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Reason from "./Reason";
 import Timeline from "./Timeline";
 import executives from "../../assets/executives.jpg";
@@ -27,7 +27,7 @@ export default function MainContent() {
       <div className="flex items-center justify-center lg:flex-row flex-col lg:gap-[4rem] gap-8 lg:pt-[60px] m-4 lg:max-w-screen-xl mx-auto">
         <div className="flex flex-col items-center justify-center">
           <p className="font-bold text-[48px] text-[#3945EF] lg:leading-[64px] text-center">
-            100+
+            1000+
           </p>
           <p className="text-[30px] lg:leading-[64px] font-normal text-[#828282]">
             Attendees
@@ -66,12 +66,14 @@ export default function MainContent() {
             Stalls
           </p>
         </div>
-
       </div>
 
       {/* about the event section */}
 
-      <div className="flex flex-col w-full items-center justify-center space-y-8  py-[50px] ">
+      <div
+        id="aboutus"
+        className="flex flex-col w-full items-center justify-center space-y-8  py-[50px] "
+      >
         <div className="p-[20px] text-center text-[45px] font-bold text-black rounded-full">
           About the Event
         </div>
@@ -79,14 +81,14 @@ export default function MainContent() {
         {/* content section */}
         <div className="w-auto p-2 lg:max-w-screen-xl mx-auto text-justify text-[20px] tracking-normal font-normal ">
           <p className="text-[#828282] font-semibold items-center justify-center p-2 lg:p-1">
-            Future Tech presents its flagship event, the AI Summit & Expo 2024,
-            a groundbreaking conference designed to catalyze innovation and
-            empower entrepreneurs across India's diverse landscape. This
-            single-track event brings together visionaries, startups, investors,
-            and industry leaders to explore the transformative potential of AI
-            in addressing challenges and creating opportunities, with a special
-            focus on rural development, women empowerment, and emerging
-            entrepreneurial hubs.
+            TamilarStartup presents its flagship event, Future Tech AI Summit &
+            Expo 2024, a groundbreaking conference designed to catalyze
+            innovation and empower entrepreneurs across India's diverse
+            landscape. This single-track event brings together visionaries,
+            startups, investors, and industry leaders to explore the
+            transformative potential of AI in addressing challenges and creating
+            opportunities, with a special focus on rural development, women
+            empowerment, and emerging entrepreneurial hubs.
           </p>
         </div>
         <img src={about} alt="about_event" />
@@ -190,7 +192,7 @@ export default function MainContent() {
                 index={index}
               />
             ))}
-          </div>  
+          </div>
         </div>
 
         {/* sponsors list section */}

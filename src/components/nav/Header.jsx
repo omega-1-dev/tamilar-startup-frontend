@@ -6,6 +6,9 @@ import CircleSVG from "../../assets/svg_components/circle/one";
 import HamburgerSVG from "../../assets/svg_components/hamburger/one";
 
 export default function (props) {
+  const handleClick = () => {
+    window.location.href = "https://pages.razorpay.com/stores/FTASE";
+  };
   const { className, openSideBar } = props;
   const location = useLocation();
   const navigate = useNavigate();
@@ -99,6 +102,7 @@ export default function (props) {
         className={`hidden lg:flex justify-center items-center flex-1 text-center`}
       >
         <button
+          onClick={handleClick}
           className={`text-white font-bold text-[21px bg-purple-theme rounded-2xl px-2 py-2 mt-2`}
         >
           Register now
