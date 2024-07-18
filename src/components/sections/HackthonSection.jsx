@@ -10,7 +10,7 @@ import HackathonCardSVG from "../../assets/svg_components/hackathoncard/one";
 import CountDownTimer from "./CountDownTimer";
 import HackthonRegistration from "./HackthonRegistration";
 import tamilar from "../../assets/tamilar.jpg";
-import growbinar from "../../assets/growbinar.png";
+import growbinar1 from "../../assets/growbinar1.png";
 
 export default function HackthonSection() {
   const [openIndex, setOpenIndex] = useState(null);
@@ -39,7 +39,7 @@ export default function HackthonSection() {
             <img src={tamilar} className={`max-w-full fill-current h-32 w-98`} />
           </div>
           <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
-            <img src={growbinar} className={`max-w-full fill-current h-32 w-98`} />
+            <img src={growbinar1} className={`max-w-full fill-current h-32 w-98`} />
           </div>
 
           {/* <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
@@ -87,7 +87,7 @@ export default function HackthonSection() {
       {/* map section  */}
       <div className="pt-24 pb-12 md:pt-[60px] relative -z-30">
         <p className="max-w-6xl mx-auto text-black text-[35px] font-bold text-center mb-5">
-          AI SUMMIT & EXPO 2024
+        Tech AI Hackathon 2024 Venue
         </p>
         <div className="relative">
           <img
@@ -96,10 +96,12 @@ export default function HackthonSection() {
             className="block mx-auto max-w-full h-auto"
           />
           <div className="absolute top-0 right-0  p-4 text-white font-bold text-center lg:text-[50px]">
-            Contributing to Tamilnadu's 1 trillion $ economy,
+            Contributing to Dharmapuri's Economy
           </div>
-          <div className="absolute bottom-0 p-4 text-white font-bold text-center lg:text-[50px]">
-            Towards a Trillion Dollar Economy by 2030
+          <div className="absolute inset-0 flex items-center justify-center text-white font-bold text-center lg:text-[50px]">
+            <div className="p-4">
+            Dharmapuri
+            </div>
           </div>
         </div>
       </div>
