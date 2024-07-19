@@ -10,6 +10,7 @@ export default function ({ routeName }) {
     heroText = "Future Tech AI ";
   } else {
     heroText = "Future Tech AI";
+
   }
   return (
     <AppLayout>
