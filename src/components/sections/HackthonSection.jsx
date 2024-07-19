@@ -67,12 +67,6 @@ export default function HackthonSection() {
               className={`max-w-full fill-current h-32 w-98`}
             />
           </div>
-          <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
-            <img
-              src={wofy}
-              className={`max-w-full fill-current h-32 w-98`}
-            />
-          </div>
         </div>
       </div>
 
