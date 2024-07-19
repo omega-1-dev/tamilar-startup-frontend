@@ -2,6 +2,7 @@ import AppLayout from "./AppLayout";
 import Hero from "../sections/Hero";
 import MainContent from "../sections/MainContent";
 import HackthonSection from "../sections/HackthonSection";
+import Sidebar from "../nav/Sidebar";
 
 export default function ({ routeName }) {
   let heroText = "";
