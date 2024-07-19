@@ -105,7 +105,7 @@ export default function (props) {
           onClick={handleClick}
           className={`text-white font-bold text-[21px bg-purple-theme rounded-2xl px-2 py-2 mt-2`}
         >
-          Register now
+          Get Your Pass
         </button>
       </div>
       <div className={`flex lg:hidden justify-center items-center text-center`}>

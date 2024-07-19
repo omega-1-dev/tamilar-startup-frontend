@@ -4,10 +4,12 @@ import CalendarSVG from "../../assets/svg_components/calendar/one";
 import LocatonSVG from "../../assets/svg_components/location/one";
 import RedCircleSVG from "../../assets/svg_components/circle/red";
 import summit from "../../assets/summit.svg";
-export default function ({ text }) {
-  const handleClick = () => {
-    window.location.href = "https://forms.gle/usCSaXfGN6hGxm9B9";
-  };
+
+export default function ({ text, regLink }) {
+  // let link = regLink;
+  // const handleClick = () => {
+  //   window.location.href = regLink 
+  //  };
   return (
     <div>
       <div
@@ -44,12 +46,12 @@ export default function ({ text }) {
           </div>
         </div>
         <div className={`flex justify-center items-center text-center mb-8`}>
-          <button
-            onClick={handleClick}
+          <a href={regLink}><button
             className={`text-white text-center font-bold text-[21px] bg-purple-theme rounded-2xl px-4 py-4 mt-2`}
           >
             Register now
           </button>
+          </a>
         </div>
         <p>
           <div className={`flex items-center`}>
