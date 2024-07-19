@@ -14,6 +14,7 @@ import prizes from "../../assets/prizes.svg";
 import time from "../../assets/Time.svg";
 import omega from "../../assets/omega.png";
 import Themes from "./Themes";
+import wofy from "../../assets/wofy.png";
 
 export default function HackthonSection() {
   const [openIndex, setOpenIndex] = useState(null);
@@ -63,6 +64,12 @@ export default function HackthonSection() {
           <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
             <img
               src={growbinar1}
+              className={`max-w-full fill-current h-32 w-98`}
+            />
+          </div>
+          <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
+            <img
+              src={wofy}
               className={`max-w-full fill-current h-32 w-98`}
             />
           </div>

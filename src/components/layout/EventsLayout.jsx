@@ -9,7 +9,7 @@ export default function ({ routeName }) {
   if (routeName === "mainContent") {
     heroText = "Future Tech AI ";
   } else {
-    heroText = "Future Tech AI ";
+    heroText = "Future Tech AI";
   }
   return (
     <AppLayout>
