@@ -7,7 +7,7 @@ import HamburgerSVG from "../../assets/svg_components/hamburger/one";
 
 export default function (props) {
   const handleClick = () => {
-    window.location.href = "https://pages.razorpay.com/stores/FTASE";
+    window.location.href = "https://rzp.io/l/FTASE";
   };
   const { className, openSideBar } = props;
   const location = useLocation();

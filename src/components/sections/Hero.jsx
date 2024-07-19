@@ -6,7 +6,7 @@ import RedCircleSVG from "../../assets/svg_components/circle/red";
 import summit from "../../assets/summit.svg";
 export default function ({ text }) {
   const handleClick = () => {
-    window.location.href = "https://pages.razorpay.com/stores/FTASE";
+    window.location.href = "https://forms.gle/usCSaXfGN6hGxm9B9";
   };
   return (
     <div>
