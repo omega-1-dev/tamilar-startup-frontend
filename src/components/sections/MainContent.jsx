@@ -13,8 +13,8 @@ import sponsor1 from "../../assets/sponsor1.svg";
 import rtr from "../../assets/rtr.jpg";
 import jci from "../../assets/jci.jpg";
 import sts from "../../assets/out1.jpg";
-import care from "../../assets/care.jpeg";
-
+import care from "../../assets/care.png";
+import yaa from "../../assets/yaa_creation.png";
 export default function MainContent() {
   const [visibleCards, setVisibleCards] = useState(3);
   const handleViewMore = () => {
@@ -247,6 +247,13 @@ export default function MainContent() {
             <div className="w-48 h-48 ">
               <img
                 src={care}
+                alt="sponsor1"
+                className="object-contain w-full h-full"
+              />
+            </div>
+            <div className="w-48 h-48 ">
+              <img
+                src={yaa}
                 alt="sponsor1"
                 className="object-contain w-full h-full"
               />
