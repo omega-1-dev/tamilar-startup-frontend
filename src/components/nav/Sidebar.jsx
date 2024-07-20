@@ -48,7 +48,7 @@ export default function (props) {
             <div className={`inline-block w-2 h-2 mr-2`}>
               <CircleSVG
                 className={`${
-                  location.pathname === "/events" ? "block" : "hidden"
+                  location.pathname === "/hackathon" ? "block" : "hidden"
                 }`}
               />
             </div>
