@@ -27,10 +27,10 @@ export default function (props) {
               Navigate
             </p>
             <div className={`mb-2 space-y-2 text-center md:text-end`}>
-              <p>Home</p>
-              <button onClick={handelScrollEvent}>About us</button>
-              <p>Events</p>
-              <p>Contact Us</p>
+              <a href={``} className={`underline cursor-pointer`}>Home</a> <br/>
+              <button className={`underline `} onClick={handelScrollEvent}>About us</button> <br/>
+              <a href={``} className={`underline cursor-pointer`}>Events</a> <br/>
+              <a href={``} className={`underline cursor-pointer`}>Contact Us</a> <br/>
             </div>
           </div>
 
@@ -39,14 +39,14 @@ export default function (props) {
               Partners
             </p>
             <div className={`mb-2 space-y-2 text-center md:text-end`}>
-              <a href="https://forms.gle/ezK9TEKxgZzGRQQ96">
-                <p>Become a sponsor</p>
+              <a href="https://forms.gle/ezK9TEKxgZzGRQQ96" target="__blank">
+                <p className={`underline cursor-pointer`}>Become a sponsor</p>
               </a>
-              <a href="https://forms.gle/gtQQz4wwt3LGjbJDA">
-                <p>Book a Stall</p>
+              <a href="https://forms.gle/gtQQz4wwt3LGjbJDA" target="__blank">
+                <p className={`underline cursor-pointer`}>Book a Stall</p>
               </a>
-              <a href="https://forms.gle/T6evWjKt6D7UBNxp9">
-                <p>Become a Speaker</p>
+              <a href="https://forms.gle/T6evWjKt6D7UBNxp9" target="__blank">
+                <p className={`underline cursor-pointer`}>Become a Speaker</p>
               </a>
             </div>
           </div>
@@ -70,7 +70,7 @@ export default function (props) {
       <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700" />
 
       <div
-        className={`flex justify-between flex-col md:flex-row lg:max-w-screen-xl  mx-auto p-2 pb-8`}
+        className={`flex justify-between flex-col items-center md:flex-row lg:max-w-screen-xl  mx-auto p-2 pb-8`}
       >
         <span>
           <CopyrightSVG className={`h-5 w-5 inline-block mr-1`} />
