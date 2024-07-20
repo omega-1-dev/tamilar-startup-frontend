@@ -16,11 +16,11 @@ export default function (props) {
     <div {...props}>
       <Header className={`fixed top-0 w-screen`} openSideBar={openSideBar} />
       <SideBar
-        className={`lg:hidden ${showSideBar ? "flex" : "hidden"}`}
+        className={`lg:hidden ${showSideBar ? "flex" : "translate-x-[1000px]"} transition-all duration-500 ease-in-out `}
         onClose={closeSideBar}
       />
       {props.children}
-      <Footer className={`mt-80`} />
+      <Footer className={`mt-12 md:mt-32`} />
     </div>
   );
 }

@@ -1,8 +1,8 @@
 import React from "react";
 
-const Card = ({ data, index, color, textColor }) => {
+const Card = ({ data, index, color, textColor, className }) => {
   return (
-    <div className="flex items-center justify-center w-[343px] md:h-[450px] h-[474px] rounded-lg overflow-hidden">
+    <div className={`flex items-center justify-center w-[343px] md:h-[450px] h-[474px] rounded-lg overflow-hidden ${className}`}>
       <div
         className="flex flex-col items-center justify-center w-full h-full"
         style={{ backgroundColor: color }}

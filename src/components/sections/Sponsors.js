@@ -8,7 +8,7 @@ const Sponsors = [
       "3 Dedicated Social media post",
       "4 Founder Pass including dinner",
     ],
-    backgroundColor: "#C0C0C0",
+    backgroundColor: 'linear-gradient(-45deg, #c0c0c0 52%, #e0e0e0 70%)',
   },
   {
     title: "PLATINUM",
@@ -32,7 +32,7 @@ const Sponsors = [
       "Designated exhibit booth in the showcase area",
       "8 Founder Pass including dinner",
     ],
-    backgroundColor: "#FFD700",
+    backgroundColor: "linear-gradient(to top left, #e58e05 52%, #f7cf02 70%)",
   },
 ];
 export default Sponsors;

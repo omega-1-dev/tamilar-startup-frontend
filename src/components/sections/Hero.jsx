@@ -1,11 +1,9 @@
-import HeroTextIMG from "../../assets/fat.png";
 import herovid from "../../assets/hero_section_vid.mp4";
 import CalendarSVG from "../../assets/svg_components/calendar/one";
 import LocatonSVG from "../../assets/svg_components/location/one";
 import RedCircleSVG from "../../assets/svg_components/circle/red";
-import summit from "../../assets/summit.svg";
 
-export default function ({ text, regLink }) {
+export default function ({ text, regLink, svg }) {
   // let link = regLink;
   // const handleClick = () => {
   //   window.location.href = regLink 
@@ -27,8 +25,8 @@ export default function ({ text, regLink }) {
       <div
         className={`flex flex-col h-screen w-full justify-center items-center p-5 lg:p-0`}
       >
-        <div className={`text-6xl text-white font-bold `}>{text}</div>
-        <img className={`my-10`} src={summit} />
+        <div className={`text-6xl text-white font-bold text-center`}>{text}</div>
+        {svg}
         <div className={`flex mb-8`}>
           <div className={`flex items-center pr-2`}>
             <p className={`pr-1`}>

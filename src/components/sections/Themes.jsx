@@ -5,7 +5,7 @@ import ThemesData from "./ThemesList";
 export default function Themes() {
   return (
     <div className={`-z-50`}>
-      <div className="grid grid-cols-1 p-3 lg:grid-cols-2 gap-6 ">
+      <div className="grid grid-cols-1 p-3 lg:grid-cols-2 gap-0 sm:gap-3 lg:gap-6 ">
         {ThemesData.map((item, index) => (
           <div key={index} className="relative">
             <TimeLineSVG className="w-full h-[120px] md:h-[120px] lg:h-[130px] " />
