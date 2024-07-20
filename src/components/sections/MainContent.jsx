@@ -212,7 +212,7 @@ export default function MainContent() {
 
         <div className="mt-[75px] lg:max-w-screen-xl mx-auto">
           <p className="text-black text-[35px] text-center font-bold lg:text-[48px]">
-            Associate Sponsors
+            Associate Partners
           </p>
           <div className="flex flex-wrap gap-4  mt-[50px] items-center justify-center">
             <div className="w-48 h-48 ">
@@ -234,7 +234,7 @@ export default function MainContent() {
 
         <div className="mt-[75px] lg:max-w-screen-xl mx-auto">
           <p className="text-black text-[35px] text-center font-bold lg:text-[48px]">
-            Outreach Sponsors
+            Outreach Partners
           </p>
           <div className="flex flex-wrap gap-4  mt-[50px] items-center justify-center">
             <div className="w-48 h-48 ">
