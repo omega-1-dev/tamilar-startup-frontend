@@ -202,7 +202,7 @@ export default function MainContent() {
             Platinum Sponsors
           </p>
           <div className="flex flex-wrap gap-4  mt-[50px] items-center justify-center">
-            <div className="max-w-fit rounded-full h-auto border-2 border-black p-3">
+            <div className="max-w-fit rounded-full h-auto ">
               <img src={sponsor1} alt="sponsor1" />
             </div>
           </div>
@@ -213,14 +213,14 @@ export default function MainContent() {
             Associate Sponsors
           </p>
           <div className="flex flex-wrap gap-4  mt-[50px] items-center justify-center">
-            <div className="w-48 h-48 border-2 border-black p-3">
+            <div className="w-48 h-48 ">
               <img
                 src={rtr}
                 alt="sponsor1"
                 className="object-contain w-full h-full"
               />
             </div>
-            <div className="w-48 h-48 border-2 border-black p-3">
+            <div className="w-48 h-48 ">
               <img
                 src={jci}
                 alt="sponsor1"
@@ -235,7 +235,7 @@ export default function MainContent() {
             Outreach Sponsors
           </p>
           <div className="flex flex-wrap gap-4  mt-[50px] items-center justify-center">
-            <div className="w-48 h-48 border-2 border-black p-3">
+            <div className="w-48 h-48 ">
               <img
                 src={sts}
                 alt="sponsor1"
