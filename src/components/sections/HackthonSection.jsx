@@ -15,6 +15,7 @@ import time from "../../assets/Time.svg";
 import omega from "../../assets/omega.png";
 import Themes from "./Themes";
 import wofy from "../../assets/wofy.png";
+import growbinar_svg from "../../assets/growbinar.svg";
 
 export default function HackthonSection() {
   const [openIndex, setOpenIndex] = useState(null);
@@ -44,7 +45,7 @@ export default function HackthonSection() {
             {/* <PrizePoolSVG className={`max-w-full h-[231px]`}/>
             <BackedSVG  className={`max-w-full h-[231px]`} /> */}
             <img src={prizes} alt="prizes" className="max-w-full h-[231px]" />
-            <img src={tamilar1} alt="tamilar1" className="max-w-full h-[231px]" />
+            <img src={growbinar_svg} alt="tamilar1" className="max-w-full h-[231px]" />
 
           </div>
         </div>
