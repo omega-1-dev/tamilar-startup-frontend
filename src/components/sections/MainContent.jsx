@@ -15,6 +15,9 @@ import jci from "../../assets/jci.jpg";
 import sts from "../../assets/out1.jpg";
 import care from "../../assets/care.png";
 import yaa from "../../assets/yaa_creation.png";
+import sona from "../../assets/sona.jpg";
+import college from "../../assets/college.jpg";
+
 export default function MainContent() {
   const [visibleCards, setVisibleCards] = useState(3);
   const scrollTo = (id) => {
@@ -104,7 +107,10 @@ export default function MainContent() {
       </div>
 
       {/* speakers section */}
-      <div id="speakers" className="flex flex-col w-full items-center justify-center space-y-8 mt-[75px] lg:max-w-screen-xl mx-auto">
+      <div
+        id="speakers"
+        className="flex flex-col w-full items-center justify-center space-y-8 mt-[75px] lg:max-w-screen-xl mx-auto"
+      >
         <div className="px-[40px] py-[15px] text-center text-[45px] text-black font-bold rounded-full">
           Speakers
         </div>
@@ -181,6 +187,16 @@ export default function MainContent() {
               />
               <p className="text-white text-md font-semibold text-center p-4">
                 Investors & Venture Capitalists{" "}
+              </p>
+            </div>
+            <div className="flex flex-col items-center justify-center p-3">
+              <img
+                src={college}
+                alt="participant_image"
+                className="h-[300px] w-[250px] md:h-[250px] md:w-[300px] lg:h-[350px] lg:w-[300px]"
+              />
+              <p className="text-white text-md font-semibold text-center p-4">
+                College Students{" "}
               </p>
             </div>
           </div>
@@ -262,6 +278,21 @@ export default function MainContent() {
               <img
                 src={yaa}
                 alt="sponsor1"
+                className="object-contain w-full h-full"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-[75px] lg:max-w-screen-xl mx-auto">
+          <p className="text-black text-[35px] text-center font-bold lg:text-[48px]">
+            Incubation Partner
+          </p>
+          <div className="flex sm:flex-col md:flex-row flex-wrap md:space-x-6  mt-[50px] items-center justify-center">
+            <div className="w-48 h-48 ">
+              <img
+                src={sona}
+                alt="sona_incubation"
                 className="object-contain w-full h-full"
               />
             </div>
