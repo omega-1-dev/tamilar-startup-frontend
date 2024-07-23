@@ -27,10 +27,22 @@ export default function (props) {
               Navigate
             </p>
             <div className={`mb-2 space-y-2 text-center md:text-end`}>
-              <a href={``} className={`underline cursor-pointer`}>Home</a> <br/>
-              <button className={`underline `} onClick={handelScrollEvent}>About us</button> <br/>
-              <a href={``} className={`underline cursor-pointer`}>Events</a> <br/>
-              <a href={``} className={`underline cursor-pointer`}>Contact Us</a> <br/>
+              <a href={``} className={`underline cursor-pointer`}>
+                Home
+              </a>{" "}
+              <br />
+              <button className={`underline `} onClick={handelScrollEvent}>
+                About us
+              </button>{" "}
+              <br />
+              <a href={``} className={`underline cursor-pointer`}>
+                Events
+              </a>{" "}
+              <br />
+              <a href={``} className={`underline cursor-pointer`}>
+                Contact Us
+              </a>{" "}
+              <br />
             </div>
           </div>
 
@@ -51,7 +63,10 @@ export default function (props) {
             </div>
           </div>
           <div className={`flex-1`}>
-            <p className={`font-bold text-xl mb-2 text-center md:text-end`}>
+            <p
+              id="contactus"
+              className={`font-bold text-xl mb-2 text-center md:text-end`}
+            >
               Contact Us
             </p>
             <div className={`mb-2 space-y-1 text-center md:text-end`}>

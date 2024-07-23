@@ -4,12 +4,18 @@ import XSVG from "../../assets/svg_components/x/one";
 import CircleSVG from "../../assets/svg_components/circle/one";
 
 export default function (props) {
-  const { className, onClose} = props;
+  const { className, onClose } = props;
   const location = useLocation();
   const navigate = useNavigate();
-  const handleClick = () =>{
-    window.location.href="https://rzp.io/l/FTASE"
-  }
+  const handleScroll = (tag) => {
+    const section = document.getElementById(tag);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+  const handleClick = () => {
+    window.location.href = "https://rzp.io/l/FTASE";
+  };
   return (
     <div
       className={`fixed flex flex-col right-0 h-full w-6/12 bg-gray-theme ${className}`}
@@ -68,7 +74,7 @@ export default function (props) {
               />
             </div>
             <span
-              onClick={() => navigate("/contact")}
+              onClick={() => handleScroll("contactus")}
               className={`cursor-pointer`}
             >
               Contact Us
@@ -77,7 +83,8 @@ export default function (props) {
         </ul>
       </div>
       <div className={`flex justify-start px-5`}>
-        <button onClick={handleClick}
+        <button
+          onClick={handleClick}
           className={`text-white font-bold text-[21px bg-purple-theme rounded-2xl px-2 py-2 mt-2`}
         >
           Get Your Pass
