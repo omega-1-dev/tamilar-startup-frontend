@@ -15,6 +15,7 @@ import time from "../../assets/Time.svg";
 import omega from "../../assets/omega.png";
 import Themes from "./Themes";
 import wofy from "../../assets/wofy.png";
+import growbinar_svg from "../../assets/growbinar.svg";
 
 export default function HackthonSection() {
   const [openIndex, setOpenIndex] = useState(null);
@@ -29,28 +30,29 @@ export default function HackthonSection() {
   return (
     <div>
       {/* hackathon card */}
-      <div className="pt-24 pb-12 md:pt-[60px] flex flex-col items-center content-center">
+      <div className="pt-24 pb-12 md:pt-[60px] flex flex-col items-center content-center lg:max-w-screen-xl  mx-auto">
         <div className="max-w-6xl mx-auto text-black text-[30px] font-bold text-center ">
           Why Attend Hackathon!
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 max-w-full mt-[75px] px-4 lg:gap-4">
-          <div className="flex justify-end">
-            <img src={time} alt="timersvg" className="max-w-full h-auto" />
+        <div className=" mt-[75px] items-center px-2 lg:space-y-2 space-y-0">
+          <div className="flex flex-col lg:flex-row lg:justify-between space-y-2">
+            {/* <TimeSVG className="max-w-full h-[231px]" />
+            <TeamSVG className="max-w-full h-[231px]" /> */}
+            <img src={time} alt="timersvg" className="max-w-full h-[231px]" />
+            <img src={team} alt="team" className="max-w-full h-[231px]" />
           </div>
-          <div className="flex justify-center">
-            <img src={team} alt="team" className="max-w-full h-auto" />
-          </div>
-          <div className="flex justify-center">
-            <img src={prizes} alt="prizes" className="max-w-full h-auto" />
-          </div>
-          <div className="flex justify-center lg:justify-start">
-            <img src={tamilar1} alt="tamilar1" className="max-w-full h-auto" />
+          <div className="flex flex-col lg:flex-row lg:justify-between space-y-2">
+            {/* <PrizePoolSVG className={`max-w-full h-[231px]`}/>
+            <BackedSVG  className={`max-w-full h-[231px]`} /> */}
+            <img src={prizes} alt="prizes" className="max-w-full h-[231px]" />
+            <img src={growbinar_svg} alt="tamilar1" className="max-w-full h-[231px]" />
+
           </div>
         </div>
       </div>
 
       {/* organizers section */}
-      <div className="pt-24 pb-12 md:pt-[60px] content-center">
+      <div className="pt-24 pb-12 md:pt-[60px] content-center lg:max-w-screen-xl  mx-auto">
         <p class="max-w-6xl mx-auto text-black text-[35px] font-bold text-center mb-5">
           Organizers
         </p>
@@ -98,7 +100,7 @@ export default function HackthonSection() {
       </div>
 
       {/* map section  */}
-      <div className="pt-24 pb-12 md:pt-[60px] relative -z-30">
+      <div className="pt-24 pb-12 md:pt-[60px] relative -z-30 mt-10">
         <p className="max-w-6xl mx-auto text-black text-[35px] font-bold text-center mb-5">
           Future Tech AI Hackathon 2024 Venue
         </p>
@@ -106,7 +108,7 @@ export default function HackthonSection() {
           <img
             src={map}
             alt="dharmapuri map"
-            className="block mx-auto max-w-full h-auto"
+            className={`block mx-auto max-w-full`}
           />
           <div className="absolute top-0 right-0  p-4 text-white font-bold text-center lg:text-[50px]">
             Contributing to Dharmapuri's Economy
@@ -134,11 +136,11 @@ export default function HackthonSection() {
       </div>
 
       {/* Frequently Asked Questions */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 mt-[75px]">
-        <div className="flex text-[25px] lg:text-[35px] text-black items-center justify-center p-4 font-bold lg:justify-center">
+      <div className="flex flex-col lg:flex-row mt-1 lg:mt-16 lg:max-w-screen-xl  mx-auto">
+        <div className="flex-1 flex text-[25px] lg:text-[35px] text-black items-center justify-center p-4 font-bold lg:justify-center h-96">
           Frequently Asked Questions
         </div>
-        <div className="grid grid-rows-4 p-3 justify-center">
+        <div className="flex-1  p-3 justify-center h-[500px]">
           {FAQ.map((faq, index) => (
             <div
               key={index}
@@ -148,7 +150,7 @@ export default function HackthonSection() {
                 className="flex justify-between items-center cursor-pointer space-x-[200px]"
                 onClick={() => toggleDropDown(index)}
               >
-                <div className="text-[25px] font-bold text-black">
+                <div className="text-16 lg:text-[25px] font-bold text-black">
                   {faq.question}
                 </div>
                 <div>
@@ -159,11 +161,9 @@ export default function HackthonSection() {
                   )}
                 </div>
               </div>
-              {openIndex === index && (
-                <div className="py-2 text-[20px] font-semibold text-black">
-                  {faq.answer}
-                </div>
-              )}
+              <div className={`text-[16px] font-semibold text-gray-500 overflow-hidden transition-all duration-500 ease-in-out ${openIndex==index ? "max-h-96 opacity-100" : "max-h-0 opacity-0"}`}>
+                {faq.answer}
+              </div>
             </div>
           ))}
         </div>

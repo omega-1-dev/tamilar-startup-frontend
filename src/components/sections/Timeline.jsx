@@ -5,7 +5,7 @@ import TimelineData from "./TimelineData";
 export default function Timeline() {
   return (
     <div className={`-z-50`}>
-      <div className="grid grid-cols-1 p-3 lg:grid-cols-2 gap-6 ">
+      <div className="grid grid-cols-1 p-3 lg:grid-cols-2 sm:gap-3 lg:gap-6 gap-0">
         {TimelineData.map((item, index) => (
           <div key={index} className="relative">
             <TimeLineSVG className="w-full h-[120px] md:h-[120px] lg:h-[130px] " />

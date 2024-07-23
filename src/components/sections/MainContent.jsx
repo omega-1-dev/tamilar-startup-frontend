@@ -17,11 +17,18 @@ import care from "../../assets/care.png";
 import yaa from "../../assets/yaa_creation.png";
 export default function MainContent() {
   const [visibleCards, setVisibleCards] = useState(3);
+  const scrollTo = (id) => {
+    const aboutUsSection = document.getElementById(id);
+    if (aboutUsSection) {
+      aboutUsSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   const handleViewMore = () => {
     setVisibleCards(visibleCards + 3);
   };
   const handleViewLess = () => {
     setVisibleCards(3);
+    scrollTo("speakers");
   };
 
   return (
@@ -97,11 +104,11 @@ export default function MainContent() {
       </div>
 
       {/* speakers section */}
-      <div className="flex flex-col w-full items-center justify-center space-y-8 mt-[75px] lg:max-w-screen-xl mx-auto">
+      <div id="speakers" className="flex flex-col w-full items-center justify-center space-y-8 mt-[75px] lg:max-w-screen-xl mx-auto">
         <div className="px-[40px] py-[15px] text-center text-[45px] text-black font-bold rounded-full">
           Speakers
         </div>
-        <div className="flex items-center justify-center mb-4 p-2">
+        <div className="flex items-center justify-center mb-0 lg:mb-4 p-2">
           <CardContainer cards={CardData} visibleCards={visibleCards} />
         </div>
         <div className="flex justify-center">
@@ -115,7 +122,7 @@ export default function MainContent() {
           ) : (
             <button
               onClick={handleViewLess}
-              className="bg-[#E9EE00] text-white px-4 py-2 rounded-md hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-500 mr-4"
+              className="bg-[#E9EE00] px-4 py-2 rounded-md hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-500 mr-4 text-black"
             >
               View Less
             </button>
@@ -183,7 +190,7 @@ export default function MainContent() {
           <p className="text-black text-[35px] text-center font-bold lg:text-[48px]">
             Sponsorship Oppurtunities
           </p>
-          <div className="flex flex-wrap p-[35px] gap-8 items-center justify-center ">
+          <div className="flex flex-wrap p-[35px] gap-8 items-start justify-center ">
             {Sponsors.map((card, index) => (
               <SponsorCard
                 key={index}
@@ -214,7 +221,7 @@ export default function MainContent() {
           <p className="text-black text-[35px] text-center font-bold lg:text-[48px]">
             Associate Partners
           </p>
-          <div className="flex flex-wrap gap-4  mt-[50px] items-center justify-center">
+          <div className="flex sm:flex-col md:flex-row flex-wrap md:space-x-6  mt-[50px] items-center justify-center">
             <div className="w-48 h-48 ">
               <img
                 src={rtr}
@@ -236,7 +243,7 @@ export default function MainContent() {
           <p className="text-black text-[35px] text-center font-bold lg:text-[48px]">
             Outreach Partners
           </p>
-          <div className="flex flex-wrap gap-4  mt-[50px] items-center justify-center">
+          <div className="flex sm:flex-col md:flex-row flex-wrap md:space-x-6  mt-[50px] items-center justify-center">
             <div className="w-48 h-48 ">
               <img
                 src={sts}

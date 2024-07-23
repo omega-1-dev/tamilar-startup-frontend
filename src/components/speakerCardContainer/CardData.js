@@ -7,7 +7,7 @@ import prabha from "../../assets/prabha.png";
 import maria from "../../assets/maria.jpg";
 import giri from "../../assets/giri.png";
 import vasanth from "../../assets/vasanth.jpg";
-
+import ramesh from "../../assets/ramesh.jpeg";  
 const CardData = [
   {
     image_url: aravind,
@@ -62,6 +62,12 @@ const CardData = [
     name: "Vasanth Kumar R",
     designation: "Founder & CEO",
     company: "Brand Mindz Global Technology Pvt Ltd",
+  },
+  {
+    image_url: ramesh,
+    name: "Ramesh Kumar V",
+    designation: "Co-Founder & CEO",
+    company: "Grahaa Space",
   },
 ];
 export default CardData;
