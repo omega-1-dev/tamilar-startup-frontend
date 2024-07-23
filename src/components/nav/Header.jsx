@@ -9,6 +9,12 @@ export default function (props) {
   const handleClick = () => {
     window.location.href = "https://rzp.io/l/FTASE";
   };
+  const handleScroll = (tag) => {
+    const section = document.getElementById(tag);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   const { className, openSideBar } = props;
   const location = useLocation();
   const navigate = useNavigate();
@@ -60,7 +66,7 @@ export default function (props) {
               />
             </div>
             <span
-              onClick={() => navigate("/aboutus")}
+              onClick={() => handleScroll("aboutus")}
               className={`cursor-pointer`}
             >
               About Us
@@ -90,7 +96,7 @@ export default function (props) {
               />
             </div>
             <span
-              onClick={() => navigate("/contact")}
+              onClick={() => handleScroll("contactus")}
               className={`cursor-pointer`}
             >
               Contact Us
