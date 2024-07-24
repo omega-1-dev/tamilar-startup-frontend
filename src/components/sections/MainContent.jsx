@@ -17,6 +17,7 @@ import care from "../../assets/care.png";
 import yaa from "../../assets/yaa_creation.png";
 import sona from "../../assets/sona.jpg";
 import college from "../../assets/college.jpg";
+import one_team from "../../assets/oneteam.png";
 
 export default function MainContent() {
   const [visibleCards, setVisibleCards] = useState(3);
@@ -277,6 +278,13 @@ export default function MainContent() {
             <div className="w-48 h-48 ">
               <img
                 src={yaa}
+                alt="sponsor1"
+                className="object-contain w-full h-full"
+              />
+            </div>
+            <div className="w-48 h-48 ">
+              <img
+                src={one_team}
                 alt="sponsor1"
                 className="object-contain w-full h-full"
               />
