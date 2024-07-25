@@ -1,6 +1,8 @@
 import LogoSVG from "../../assets/svg_components/tamilar_startup/black";
 import IgSVG from "../../assets/svg_components/instagram/one";
 import CopyrightSVG from "../../assets/svg_components/copyright/one";
+import LkSVG from "../../assets/svg_components/linkedin/one"
+import FBSVG from "../../assets/svg_components/facebook/one"
 
 export default function (props) {
   const { className } = props;
@@ -74,8 +76,15 @@ export default function (props) {
               <p>+91 9087654321</p>
             </div>
             <div className={`flex space-x-2 justify-center md:justify-end`}>
-              <a href="">
+              <a href="https://www.instagram.com/tamilar_startup">
                 <IgSVG className={`h-6 w-6`} />
+              </a>
+              <a href="https://www.linkedin.com/company/tamilar-startup/">
+                <LkSVG className={`h-7 w-7`} />
+              </a>
+  
+              <a href="https://www.facebook.com/profile.php?id=61561923306259&mibextid=ZbWKwL">
+                <FBSVG className={`h-6 w-6`} />
               </a>
             </div>
           </div>
