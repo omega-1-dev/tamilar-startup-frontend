@@ -214,11 +214,26 @@ export default function MainContent() {
         {/* need to loop content - pending */}
         <div className="mt-[75px] lg:max-w-screen-xl mx-auto">
           <p className="text-black text-[35px] text-center font-bold lg:text-[48px]">
-            Platinum Sponsors
+            Platinum Sponsor
           </p>
           <div className="flex flex-wrap gap-4  mt-[50px] items-center justify-center">
             <div className="max-w-fit rounded-full h-auto ">
               <img src={sponsor1} alt="sponsor1" />
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-[75px] lg:max-w-screen-xl mx-auto">
+          <p class="text-black text-[35px] text-center font-bold lg:text-[48px] ">
+            Official Tech Partners
+          </p>
+          <div className="flex flex-wrap gap-4 items-center justify-center">
+            <div className="max-w-fit rounded-full h-auto ">
+              <img
+                src="https://omega2024.sirv.com/other_assets/omega.png"
+                alt="omega"
+                className="max-w-full md:h-[250px] fill-current"
+              />
             </div>
           </div>
         </div>

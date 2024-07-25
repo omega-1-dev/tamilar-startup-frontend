@@ -118,7 +118,7 @@ export default function HackthonSection() {
       </div>
 
       {/* official tech partners */}
-      <div className="pt-24 pb-12 md:pt-[60px]  content-center">
+      {/* <div className="pt-24 pb-12 md:pt-[60px]  content-center">
         <p class="max-w-6xl mx-auto text-black text-[35px] font-bold text-center  ">
           Official Tech Partners
         </p>
@@ -131,7 +131,7 @@ export default function HackthonSection() {
             />
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Frequently Asked Questions */}
       <div className="flex flex-col lg:flex-row mt-1 lg:mt-16 lg:max-w-screen-xl  mx-auto">
