@@ -4,9 +4,7 @@ import CardData from "../speakerCardContainer/CardData";
 import { useState, useRef } from "react";
 import Reason from "./Reason";
 import Timeline from "./Timeline";
-import executives from "../../assets/executives.jpg";
-import startup from "../../assets/startup.jpg";
-import investors from "../../assets/investors.jpg";
+
 import SponsorCard from "./SponsorCard";
 import Sponsors from "./Sponsors";
 import sponsor1 from "../../assets/sponsor1.svg";
@@ -16,7 +14,6 @@ import sts from "../../assets/out1.jpg";
 import care from "../../assets/care.png";
 import yaa from "../../assets/yaa_creation.png";
 import sona from "../../assets/sona.jpg";
-import college from "../../assets/college.jpg";
 
 export default function MainContent() {
   const [visibleCards, setVisibleCards] = useState(3);
@@ -161,7 +158,7 @@ export default function MainContent() {
           <div className="bg-black w-full p-3 flex justify-center flex-wrap">
             <div className="flex flex-col items-center justify-center p-3">
               <img
-                src={executives}
+                src="https://omega2024.sirv.com/other_assets/executives.jpg"
                 alt="participant_image"
                 className="h-[300px] w-[250px] md:h-[250px] md:w-[300px] lg:h-[350px] lg:w-[300px]"
               />
@@ -171,7 +168,7 @@ export default function MainContent() {
             </div>
             <div className="flex flex-col items-center justify-center p-3">
               <img
-                src={startup}
+                src="https://omega2024.sirv.com/other_assets/startup.jpg"
                 alt="participant_image"
                 className="h-[300px] w-[250px] md:h-[250px] md:w-[300px] lg:h-[350px] lg:w-[300px]"
               />
@@ -181,7 +178,7 @@ export default function MainContent() {
             </div>
             <div className="flex flex-col items-center justify-center p-3">
               <img
-                src={investors}
+                src="https://omega2024.sirv.com/other_assets/investors.jpg"
                 alt="participant_image"
                 className="h-[300px] w-[250px] md:h-[250px] md:w-[300px] lg:h-[350px] lg:w-[300px]"
               />
@@ -191,7 +188,7 @@ export default function MainContent() {
             </div>
             <div className="flex flex-col items-center justify-center p-3">
               <img
-                src={college}
+                src="https://omega2024.sirv.com/other_assets/college.jpg"
                 alt="participant_image"
                 className="h-[300px] w-[250px] md:h-[250px] md:w-[300px] lg:h-[350px] lg:w-[300px]"
               />
