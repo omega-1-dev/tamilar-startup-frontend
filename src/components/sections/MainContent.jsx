@@ -253,7 +253,7 @@ export default function MainContent() {
             </div>
             <div className="w-48 h-48 ">
               <img
-                src="https://omega2024.sirv.com/other_assets/jci.jpg  "
+                src="https://omega2024.sirv.com/other_assets/jci.jpeg "
                 alt="sponsor1"
                 className="object-contain w-full h-full"
               />
