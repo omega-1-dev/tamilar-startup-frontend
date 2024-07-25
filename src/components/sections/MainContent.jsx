@@ -286,6 +286,13 @@ export default function MainContent() {
                 className="object-contain w-full h-full"
               />
             </div>
+            <div className="w-48 h-48 ">
+              <img
+                src={one_team}
+                alt="sponsor1"
+                className="object-contain w-full h-full"
+              />
+            </div>
           </div>
         </div>
 
