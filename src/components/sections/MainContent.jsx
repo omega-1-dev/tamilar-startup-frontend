@@ -7,14 +7,7 @@ import Timeline from "./Timeline";
 import SponsorCard from "./SponsorCard";
 import Sponsors from "./Sponsors";
 import sponsor1 from "../../assets/sponsor1.svg";
-import rtr from "../../assets/rtr.jpg";
-import jci from "../../assets/jci.jpg";
-import sts from "../../assets/out1.jpg";
-import care from "../../assets/care.png";
-import yaa from "../../assets/yaa_creation.png";
-import sona from "../../assets/sona.jpg";
-import college from "../../assets/college.jpg";
-import one_team from "../../assets/oneteam.png";
+
 
 export default function MainContent() {
   const [visibleCards, setVisibleCards] = useState(3);
