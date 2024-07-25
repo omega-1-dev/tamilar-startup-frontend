@@ -1,4 +1,4 @@
-const colors = require('tailwindcss/colors')
+const colors = require("tailwindcss/colors");
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -14,7 +14,7 @@ export default {
       },
       colors: {
         "purple-theme": "#3945EF",
-        "gray-theme": colors.gray[900]
+        "gray-theme": colors.gray[900],
       },
       fontFamily: {
         switzer: ["switzer", "sans-serif"],
