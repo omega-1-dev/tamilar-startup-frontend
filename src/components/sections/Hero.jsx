@@ -1,4 +1,4 @@
-import herovid from "../../assets/hero_section_vid.mp4";
+// import herovid from "../../assets/hero_section_vid.mp4";
 import CalendarSVG from "../../assets/svg_components/calendar/one";
 import LocatonSVG from "../../assets/svg_components/location/one";
 import RedCircleSVG from "../../assets/svg_components/circle/red";
@@ -6,7 +6,7 @@ import RedCircleSVG from "../../assets/svg_components/circle/red";
 export default function ({ text, regLink, svg }) {
   // let link = regLink;
   // const handleClick = () => {
-  //   window.location.href = regLink 
+  //   window.location.href = regLink
   //  };
   return (
     <div>
@@ -19,13 +19,18 @@ export default function ({ text, regLink, svg }) {
           muted
           className="absolute top-0  w-full h-full object-cover  z-[-1] bg-local"
         >
-          <source src={herovid} type="video/mp4" />
+          <source
+            src="https://omega2024.sirv.com/hero%20video/hero_section_vid.mp4"
+            type="video/mp4"
+          />
         </video>
       </div>
       <div
         className={`flex flex-col h-screen w-full justify-center items-center p-5 lg:p-0`}
       >
-        <div className={`text-6xl text-white font-bold text-center`}>{text}</div>
+        <div className={`text-6xl text-white font-bold text-center`}>
+          {text}
+        </div>
         {svg}
         <div className={`flex mb-8`}>
           <div className={`flex items-center pr-2`}>
@@ -44,11 +49,12 @@ export default function ({ text, regLink, svg }) {
           </div>
         </div>
         <div className={`flex justify-center items-center text-center mb-8`}>
-          <a href={regLink}><button
-            className={`text-white text-center font-bold text-[21px] bg-purple-theme rounded-2xl px-4 py-4 mt-2`}
-          >
-            Register now
-          </button>
+          <a href={regLink}>
+            <button
+              className={`text-white text-center font-bold text-[21px] bg-purple-theme rounded-2xl px-4 py-4 mt-2`}
+            >
+              Register now
+            </button>
           </a>
         </div>
         <p>

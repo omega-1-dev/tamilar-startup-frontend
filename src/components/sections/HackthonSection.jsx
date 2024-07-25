@@ -1,20 +1,15 @@
 import React, { useState } from "react";
-import map from "../../assets/dm_map.png";
 import FAQ from "./FAQ";
 import PlusSVG from "../../assets/svg_components/extra/plus";
 import MinusSVG from "../../assets/svg_components/extra/minus";
 import TimerSvg from "../../assets/svg_components/Timer/timer";
 import CountDownTimer from "./CountDownTimer";
 import HackthonRegistration from "./HackthonRegistration";
-import tamilar from "../../assets/tamilar.jpg";
-import growbinar1 from "../../assets/growbinar1.png";
-import tamilar1 from "../../assets/tamilar.svg";
 import team from "../../assets/Team.svg";
 import prizes from "../../assets/prizes.svg";
 import time from "../../assets/Time.svg";
-import omega from "../../assets/omega.png";
 import Themes from "./Themes";
-import wofy from "../../assets/wofy.png";
+// import wofy from "../../assets/wofy.png";
 import growbinar_svg from "../../assets/growbinar.svg";
 
 export default function HackthonSection() {
@@ -45,8 +40,11 @@ export default function HackthonSection() {
             {/* <PrizePoolSVG className={`max-w-full h-[231px]`}/>
             <BackedSVG  className={`max-w-full h-[231px]`} /> */}
             <img src={prizes} alt="prizes" className="max-w-full h-[231px]" />
-            <img src={growbinar_svg} alt="tamilar1" className="max-w-full h-[231px]" />
-
+            <img
+              src={growbinar_svg}
+              alt="tamilar1"
+              className="max-w-full h-[231px]"
+            />
           </div>
         </div>
       </div>
@@ -59,13 +57,13 @@ export default function HackthonSection() {
         <div className="max-w-sm md:max-w-4xl mx-auto  gap-8 grid-cols-2 md:grid-cols-4 text-center flex items-center justify-center">
           <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
             <img
-              src={tamilar}
+              src="https://omega2024.sirv.com/other_assets/tamilar.jpg"
               className={`max-w-full fill-current h-32 w-98`}
             />
           </div>
           <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
             <img
-              src={growbinar1}
+              src="https://omega2024.sirv.com/other_assets/growbinar1.png"
               className={`max-w-full fill-current h-32 w-98`}
             />
           </div>
@@ -106,7 +104,7 @@ export default function HackthonSection() {
         </p>
         <div className="relative">
           <img
-            src={map}
+            src="https://omega2024.sirv.com/other_assets/dm_map.png"
             alt="dharmapuri map"
             className={`block mx-auto max-w-full`}
           />
@@ -127,7 +125,7 @@ export default function HackthonSection() {
         <div className="max-w-sm md:max-w-4xl mx-auto">
           <div className="flex items-start justify-center">
             <img
-              src={omega}
+              src="https://omega2024.sirv.com/other_assets/omega.png"
               alt="omega"
               className="max-w-full md:h-[200px] fill-current"
             />
@@ -161,7 +159,13 @@ export default function HackthonSection() {
                   )}
                 </div>
               </div>
-              <div className={`text-[16px] font-semibold text-gray-500 overflow-hidden transition-all duration-500 ease-in-out ${openIndex==index ? "max-h-96 opacity-100" : "max-h-0 opacity-0"}`}>
+              <div
+                className={`text-[16px] font-semibold text-gray-500 overflow-hidden transition-all duration-500 ease-in-out ${
+                  openIndex == index
+                    ? "max-h-96 opacity-100"
+                    : "max-h-0 opacity-0"
+                }`}
+              >
                 {faq.answer}
               </div>
             </div>

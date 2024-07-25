@@ -4,16 +4,9 @@ import CardData from "../speakerCardContainer/CardData";
 import { useState, useRef } from "react";
 import Reason from "./Reason";
 import Timeline from "./Timeline";
-
 import SponsorCard from "./SponsorCard";
 import Sponsors from "./Sponsors";
 import sponsor1 from "../../assets/sponsor1.svg";
-import rtr from "../../assets/rtr.jpg";
-import jci from "../../assets/jci.jpg";
-import sts from "../../assets/out1.jpg";
-import care from "../../assets/care.png";
-import yaa from "../../assets/yaa_creation.png";
-import sona from "../../assets/sona.jpg";
 
 export default function MainContent() {
   const [visibleCards, setVisibleCards] = useState(3);
@@ -237,14 +230,14 @@ export default function MainContent() {
           <div className="flex sm:flex-col md:flex-row flex-wrap md:space-x-6  mt-[50px] items-center justify-center">
             <div className="w-48 h-48 ">
               <img
-                src={rtr}
+                src="https://omega2024.sirv.com/other_assets/rtr.jpg"
                 alt="sponsor1"
                 className="object-contain w-full h-full"
               />
             </div>
             <div className="w-48 h-48 ">
               <img
-                src={jci}
+                src="https://omega2024.sirv.com/other_assets/jci.jpg  "
                 alt="sponsor1"
                 className="object-contain w-full h-full"
               />
@@ -259,21 +252,21 @@ export default function MainContent() {
           <div className="flex sm:flex-col md:flex-row flex-wrap md:space-x-6  mt-[50px] items-center justify-center">
             <div className="w-48 h-48 ">
               <img
-                src={sts}
+                src="https://omega2024.sirv.com/other_assets/out1.jpg"
                 alt="sponsor1"
                 className="object-contain w-full h-full"
               />
             </div>
             <div className="w-48 h-48 ">
               <img
-                src={care}
+                src="https://omega2024.sirv.com/other_assets/care.png"
                 alt="sponsor1"
                 className="object-contain w-full h-full"
               />
             </div>
             <div className="w-48 h-48 ">
               <img
-                src={yaa}
+                src="https://omega2024.sirv.com/other_assets/yaa_creation.png"
                 alt="sponsor1"
                 className="object-contain w-full h-full"
               />
@@ -288,7 +281,7 @@ export default function MainContent() {
           <div className="flex sm:flex-col md:flex-row flex-wrap md:space-x-6  mt-[50px] items-center justify-center">
             <div className="w-48 h-48 ">
               <img
-                src={sona}
+                src="https://omega2024.sirv.com/other_assets/sona.jpg"
                 alt="sona_incubation"
                 className="object-contain w-full h-full"
               />
