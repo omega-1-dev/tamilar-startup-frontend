@@ -53,7 +53,7 @@ export default function ({ text, regLink, svg }) {
             <button
               className={`text-white text-center font-bold text-[21px] bg-purple-theme rounded-2xl px-4 py-4 mt-2`}
             >
-              Register now
+              Get Your Pass
             </button>
           </a>
         </div>

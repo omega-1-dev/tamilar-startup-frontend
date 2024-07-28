@@ -7,7 +7,7 @@ import HamburgerSVG from "../../assets/svg_components/hamburger/one";
 
 export default function (props) {
   const handleClick = () => {
-    window.location.href = "https://rzp.io/l/FTASE";
+    window.location.href = "https://forms.gle/usCSaXfGN6hGxm9B9";
   };
   const handleScroll = (tag) => {
     const section = document.getElementById(tag);
@@ -111,7 +111,7 @@ export default function (props) {
           onClick={handleClick}
           className={`text-white font-bold text-[21px bg-purple-theme rounded-2xl px-2 py-2 mt-2`}
         >
-          Get Your Pass
+          Register
         </button>
       </div>
       <div className={`flex lg:hidden justify-center items-center text-center`}>
