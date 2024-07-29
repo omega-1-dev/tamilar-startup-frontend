@@ -229,7 +229,7 @@ export default function MainContent() {
             Silver Sponser
           </p>
           <div className="flex sm:flex-col md:flex-row flex-wrap md:space-x-6  mt-[50px] items-center justify-center">
-            <div className="w-48 h-48 ">
+            <div className="w-60 h-49">
               <img
                 src="https://omega2024.sirv.com/other_assets/silver-sponser.png"
                 alt="sponsor1"
