@@ -225,6 +225,22 @@ export default function MainContent() {
         </div>
 
         <div className="mt-[75px] lg:max-w-screen-xl mx-auto">
+          <p className="text-black text-[35px] text-center font-bold lg:text-[48px]">
+            Silver Sponser
+          </p>
+          <div className="flex sm:flex-col md:flex-row flex-wrap md:space-x-6  mt-[50px] items-center justify-center">
+            <div className="w-48 h-48 ">
+              <img
+                src="https://omega2024.sirv.com/other_assets/silver-sponser.png"
+                alt="sponsor1"
+                className="object-contain w-full h-full"
+              />
+            </div>
+    
+          </div>
+        </div>
+
+        <div className="mt-[75px] lg:max-w-screen-xl mx-auto">
           <p class="text-black text-[35px] text-center font-bold lg:text-[48px] ">
             Official Tech Partners
           </p>
@@ -318,6 +334,7 @@ export default function MainContent() {
             </div>
           </div>
         </div>
+        
       </div>
     </div>
   );
