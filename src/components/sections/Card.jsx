@@ -2,27 +2,25 @@ import React from "react";
 
 const Card = ({ data, index, color, textColor, className }) => {
   return (
-    <div className={`flex items-center justify-center w-[343px] md:h-[450px] h-[474px] rounded-lg overflow-hidden ${className}`}>
-      <div
-        className="flex flex-col items-center justify-center w-full h-full"
-        style={{ backgroundColor: color }}
-      >
-        <img
-          src={data.image_url}
-          alt="speaker_image"
-          className="w-[250px] h-[250px] mb-4"
-        />
-        <div className="text-center">
-          <h2 className={`text-xl font-bold text-${textColor}`}>{data.name}</h2>
-          <h3 className={`text-lg font-bold text-${textColor}`}>
-            {data.designation}
-          </h3>
-          <p className={`text-md font-bold text-${textColor}`}>
-            {data.company}
-          </p>
-        </div>
-      </div>
-    </div>
+   
+<div className={`flex flex-col items-center justify-center w-[343px] md:h-[450px] h-[474px] rounded-lg overflow-hidden ${className}`}>
+  <img
+    src={data.image_url}
+    alt="speaker_image"
+    className="w-[250px] h-[275px] rounded-t-[27px] bg-[#f5f5f5]"
+  />
+  <div className="w-[250px] h-[103.5px] text-center bg-black rounded-b-[27px] p-2 content-center">
+    <h3 className={`font-bold text-${textColor}`}>{data.name}</h3>
+    <h4 className={`font-bold text-${textColor}`}>
+      {data.designation}
+    </h4>
+    <p className={` text-[14px] font-semibold text-${textColor} overflow-hiddden`}>
+      {data.company}
+    </p>
+  </div>
+</div>
+
+
   );
 };
 

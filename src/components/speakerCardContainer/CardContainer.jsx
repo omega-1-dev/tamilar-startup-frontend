@@ -8,7 +8,7 @@ const CardContainer = ({ cards, visibleCards }) => {
         <Card
           data={card}
           index={index}
-          color={index % 2 === 0 ? "#3945EF" : "#3945EF"}
+          color="black"
           textColor={index % 2 === 0 ? "white" : "white"}
           className={`overflow-hidden transition-all duration-500 ease-in-out ${index<visibleCards ? "max-h-96 opacity-100" : "max-h-0 opacity-0"}`}
         />
