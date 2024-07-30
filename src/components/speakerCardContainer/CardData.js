@@ -1,5 +1,11 @@
 const CardData = [
   {
+    image_url: "https://omega2024.sirv.com/speakers%20images/Suresh_Prabhu__1_-removebg-preview%20(1).png",
+    name: "Mr.Suresh Prabhu",
+    designation: "Former union cabinet minister",
+    company: "Inaugural cheif guest",
+  },
+  {
     image_url: "https://omega2024.sirv.com/speakers%20images/Dr_Arvin_Subramanian-removebg-preview.png",
     name: "Dr Arvin Subramanian",
     designation: "AI Solution Specialist",
