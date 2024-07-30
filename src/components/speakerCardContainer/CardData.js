@@ -1,9 +1,9 @@
 const CardData = [
   {
     image_url: "https://omega2024.sirv.com/speakers%20images/Suresh_Prabhu__1_-removebg-preview%20(1).png",
-    name: "Mr.Suresh Prabhu",
-    designation: "Former union cabinet minister",
-    company: "Inaugural cheif guest",
+    name: "Suresh Prabhu",
+    designation: "Former Union Cabinet Minister",
+    company: "Inaugural Cheif Guest",
   },
   {
     image_url: "https://omega2024.sirv.com/speakers%20images/Dr_Arvin_Subramanian-removebg-preview.png",
@@ -64,6 +64,12 @@ const CardData = [
     name: "Ramesh Kumar V",
     designation: "Co-Founder & CEO",
     company: "Grahaa Space",
+  },
+  {
+    image_url: "https://omega2024.sirv.com/speakers%20images/Usha__Rengaraju-removebg-preview.png",
+    name: "Usha Rengaraju",
+    designation: "Chief of Research",
+    company: "Exa protocol",
   },
 ];
 export default CardData;
