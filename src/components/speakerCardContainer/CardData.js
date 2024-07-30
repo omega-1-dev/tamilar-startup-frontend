@@ -1,6 +1,6 @@
 const CardData = [
   {
-    image_url: "https://omega2024.sirv.com/SpeakerData/aravind.jpg",
+    image_url: "https://omega2024.sirv.com/speakers%20images/Roshini_Kesavan-removebg-preview.png",
     name: "Dr Arvin Subramanian",
     designation: "AI Solution Specialist",
     company: "Alpharithm Technologies Pvt Ltd",
@@ -21,13 +21,13 @@ const CardData = [
     image_url: "https://omega2024.sirv.com/SpeakerData/roshini.png",
     name: "Roshini",
     designation: "CEO & Founder",
-    company: "Binari Intelligence System Private Limited",
+    company: "Binari Intelligence System Pvt Ltd",
   },
   {
     image_url: "https://omega2024.sirv.com/SpeakerData/madhan.png",
     name: "Madan Ram",
     designation: "Chief Executive Officer",
-    company: "Memorly Technologies Private Limited",
+    company: "Memorly Technologies Pvt",
   },
   {
     image_url: "https://omega2024.sirv.com/SpeakerData/prabha.png",
