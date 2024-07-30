@@ -1,7 +1,7 @@
 const CardData = [
   {
     image_url: "https://omega2024.sirv.com/speakers%20images/Suresh_Prabhu__1_-removebg-preview%20(1).png",
-    name: "Suresh Prabhu",
+    name: "Shri Suresh Prabhu",
     designation: "Former Union Cabinet Minister",
     company: "Inaugural Cheif Guest",
   },
