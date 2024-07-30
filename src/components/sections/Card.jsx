@@ -7,9 +7,9 @@ const Card = ({ data, index, color, textColor, className }) => {
   <img
     src={data.image_url}
     alt="speaker_image"
-    className="w-[250px] h-[275px] rounded-t-[27px] bg-gradient-to-r from-violet-500 to-fuchsia-500"
+    className="w-[250px] h-[275px] rounded-t-[27px] bg-[#f5f5f5]"
   />
-  <div className="w-[250px] h-[100px] text-center bg-black rounded-b-[27px] p-2 content-center">
+  <div className="w-[250px] h-[103.5px] text-center bg-black rounded-b-[27px] p-2 content-center">
     <h3 className={`font-bold text-${textColor}`}>{data.name}</h3>
     <h4 className={`font-bold text-${textColor}`}>
       {data.designation}
