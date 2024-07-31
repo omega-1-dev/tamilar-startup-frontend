@@ -71,5 +71,17 @@ const CardData = [
     designation: "Chief of Research",
     company: "Exa protocol",
   },
+  {
+    image_url: "https://omega2024.sirv.com/speakers%20images/_Ashwin_Ragav-removebg.png",
+    name: "Ashwin Ragav",
+    designation: "Cheif Executive Officer",
+    company: "Speclar",
+  },
+  {
+    image_url: "https://omega2024.sirv.com/speakers%20images/Hassaana_Begam-removebg.png",
+    name: "Hassaana Begam V",
+    designation: "Founder",
+    company: "Teenvisor",
+  },
 ];
 export default CardData;
