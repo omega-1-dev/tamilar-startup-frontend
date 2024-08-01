@@ -333,6 +333,13 @@ export default function MainContent() {
             </div>
             <div className="w-48 h-48 ">
               <img
+                src="https://omega2024.sirv.com/other_assets/teacher-association-removebg-preview.png"
+                alt="sponsor1"
+                className="object-contain w-full h-full"
+              />
+            </div> 
+            <div className="w-48 h-48 ">
+              <img
                 src="https://omega2024.sirv.com/other_assets/TheDotStudios_LOGO_PNG.png"
                 alt="sponsor1"
                 className="object-contain w-full h-full"
