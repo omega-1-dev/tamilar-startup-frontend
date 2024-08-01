@@ -65,11 +65,5 @@ const CardData = [
     designation: "Chief Executive Officer",
     company: "Memorly Technologies Pvt",
   },
-  {
-    image_url: "https://omega2024.sirv.com/speakers%20images/Giridaran-removebg-preview.png",
-    name: "Giridaran",
-    designation: "Founder & CEO",
-    company: "Crypto Security",
-  },
 ];
 export default CardData;
