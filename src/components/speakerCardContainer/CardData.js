@@ -36,10 +36,22 @@ const CardData = [
     company: "Exa protocol",
   },
   {
+    image_url: "https://omega2024.sirv.com/speakers%20images/manohar-removebg-preview%20(1).png",
+    name: "DR Manoharan",
+    designation: "M.E, Ph.d",
+    company: "IPR Expert in India",
+  },
+  {
     image_url: "https://omega2024.sirv.com/speakers%20images/Maria__Subi_Rajan-removebg-preview.png",
-    name: " Maria Subi Rajan",
+    name: "Maria Subi Rajan",
     designation: "Founder & CEO",
     company: "BrandFox & She The Sakthi",
+  },
+  {
+    image_url: "https://omega2024.sirv.com/speakers%20images/Dinesh_Paranthagan-removebg-preview.png",
+    name: "Dinesh pranthagan",
+    designation: "Founder & CEO",
+    company: "Hackup Technology",
   },
   {
     image_url: "https://omega2024.sirv.com/speakers%20images/Premananth_-removebg-preview.png",
