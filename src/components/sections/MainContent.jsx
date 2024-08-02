@@ -221,6 +221,13 @@ export default function MainContent() {
             <div className="max-w-fit rounded-full h-auto ">
               <img src={sponsor1} alt="sponsor1" />
             </div>
+            <div className="w-60 h-49">
+              <img
+                src="https://omega2024.sirv.com/other_assets/ddimsia.png"
+                alt="sponsor1"
+                className="object-contain w-full h-full"
+              />
+            </div>
           </div>
         </div>
 
