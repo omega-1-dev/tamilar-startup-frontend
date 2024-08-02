@@ -77,5 +77,11 @@ const CardData = [
     designation: "Chief Executive Officer",
     company: "Memorly Technologies Pvt",
   },
+  {
+    image_url: "https://omega2024.sirv.com/speakers%20images/kandhasaami.png",
+    name: "Kandhasaami Nallayan",
+    designation: "Founder and CEO",
+    company: "Satisfact.ai",
+  },
 ];
 export default CardData;
