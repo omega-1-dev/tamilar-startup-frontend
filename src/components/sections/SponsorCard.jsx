@@ -48,5 +48,3 @@ const SponsorCard = ({ title, amount, details, backgroundColor, index }) => {
   );
 };
 export default SponsorCard;
-
-// ${isOpen?'block': 'hidden'}
