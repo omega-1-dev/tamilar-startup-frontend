@@ -108,28 +108,10 @@ const CardData = [
     company: "Karmadev.IN",
   },
   {
-    image_url: "https://omega2024.sirv.com/speakers%20images/Paul_D-removebg-preview.png",
-    name: "Paul D",
-    designation: "Founder",
-    company: "Paul Bros Consulting",
-  },
-  {
     image_url: "https://omega2024.sirv.com/speakers%20images/Premkumar-removebg-preview.png",
     name: "Premkumar",
     designation: "Founder & CEO",
     company: "Hashtag Growth",
-  },
-  {
-    image_url: "https://omega2024.sirv.com/speakers%20images/Hassaana_Begam-removebg.png",
-    name: "Hassaana Begam.V",
-    designation: "Founder",
-    company: "Teenvisor",
-  },
-  {
-    image_url: "https://omega2024.sirv.com/speakers%20images/Giridaran-removebg-preview.png",
-    name: "Giridaran",
-    designation: "Founder & Founder",
-    company: "Crypto Security",
   },
   {
     image_url: "https://omega2024.sirv.com/speakers%20images/_Ashwin_Ragav-removebg.png",
