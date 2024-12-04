@@ -78,10 +78,48 @@ const CardData = [
     company: "Memorly Technologies Pvt",
   },
   {
-    image_url: "https://omega2024.sirv.com/speakers%20images/kandhasaami.png",
+    image_url: "https://omega2024.sirv.com/speakers%20images/Kandhasaami%20Nallayan%20(1).png",
     name: "Kandhasaami Nallayan",
     designation: "Founder and CEO",
     company: "Satisfact.ai",
   },
+  {
+    image_url: "https://omega2024.sirv.com/speakers%20images/Srinivasan_Ramanujam-removebg-preview.png",
+    name: "Srinivasan Ramanujam",
+    designation: "Founder",
+    company: "Deep Mind Systems",
+  },
+  {
+    image_url: "https://omega2024.sirv.com/speakers%20images/Vivek_Profile__1__-_Vivek_Manoharan-removebg-preview.png",
+    name: "Vivek manoharan",
+    designation: "Co-Founder",
+    company: "Bipolar Factory",
+  },
+  {
+    image_url: "https://omega2024.sirv.com/speakers%20images/MALAYAKUMARBISWAL_-_Malay_Kumar-removebg-preview%20(1).png",
+    name: "Malaya Kumar Biswal",
+    designation: "Founder & CEO",
+    company: "Cceleron Aerospace Science Pvt Ltd",
+  },
+  {
+    image_url: "https://omega2024.sirv.com/speakers%20images/Sanjay%20logo%20-%20Sanjay%20KarmaDev.png",
+    name: "Sanjay Vijaykumar",
+    designation: "Founder & CEO",
+    company: "Karmadev.IN",
+  },
+  {
+    image_url: "https://omega2024.sirv.com/speakers%20images/Premkumar-removebg-preview.png",
+    name: "Premkumar",
+    designation: "Founder & CEO",
+    company: "Hashtag Growth",
+  },
+  {
+    image_url: "https://omega2024.sirv.com/speakers%20images/_Ashwin_Ragav-removebg.png",
+    name: "Ashwin Ragav",
+    designation: "Chief Executive Officer",
+    company: "Crypto Security",
+  },
 ];
 export default CardData;
+
+  

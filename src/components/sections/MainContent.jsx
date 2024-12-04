@@ -309,6 +309,13 @@ export default function MainContent() {
                 className="object-contain w-full h-full"
               />
             </div>
+            <div className="w-40 h-40 ">
+              <img
+                src="https://omega2024.sirv.com/other_assets/jayalakshmi-removebg-preview.png"
+                alt="sona_incubation"
+                className="object-contain w-full h-full"
+              />
+            </div>
           </div>
         </div>
         <div className="mt-[75px] lg:max-w-screen-xl mx-auto">
