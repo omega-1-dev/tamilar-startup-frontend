@@ -152,7 +152,7 @@ export default function MainContent() {
           <div className="bg-black w-full p-3 flex justify-center flex-wrap">
             <div className="flex flex-col items-center justify-center p-3">
               <img
-                src="https://omega2024.sirv.com/other_assets/executives.jpg"
+                src="https://omega1.sirv.com/other_assets/executives.jpg"
                 alt="participant_image"
                 className="h-[300px] w-[250px] md:h-[250px] md:w-[300px] lg:h-[350px] lg:w-[300px]"
               />
@@ -162,7 +162,7 @@ export default function MainContent() {
             </div>
             <div className="flex flex-col items-center justify-center p-3">
               <img
-                src="https://omega2024.sirv.com/other_assets/startup.jpg"
+                src="https://omega1.sirv.com/other_assets/startup.jpg"
                 alt="participant_image"
                 className="h-[300px] w-[250px] md:h-[250px] md:w-[300px] lg:h-[350px] lg:w-[300px]"
               />
@@ -172,7 +172,7 @@ export default function MainContent() {
             </div>
             <div className="flex flex-col items-center justify-center p-3">
               <img
-                src="https://omega2024.sirv.com/other_assets/investors.jpg"
+                src="https://omega1.sirv.com/other_assets/investors.jpg"
                 alt="participant_image"
                 className="h-[300px] w-[250px] md:h-[250px] md:w-[300px] lg:h-[350px] lg:w-[300px]"
               />
@@ -182,7 +182,7 @@ export default function MainContent() {
             </div>
             <div className="flex flex-col items-center justify-center p-3">
               <img
-                src="https://omega2024.sirv.com/other_assets/college.jpg"
+                src="https://omega1.sirv.com/other_assets/college.jpg"
                 alt="participant_image"
                 className="h-[300px] w-[250px] md:h-[250px] md:w-[300px] lg:h-[350px] lg:w-[300px]"
               />
@@ -223,7 +223,7 @@ export default function MainContent() {
             </div>
             <div className="w-60 h-49">
               <img
-                src="https://omega2024.sirv.com/other_assets/ddimsia.png"
+                src="https://omega1.sirv.com/other_assets/ddimsia.png"
                 alt="sponsor1"
                 className="object-contain w-full h-full"
               />
@@ -238,7 +238,7 @@ export default function MainContent() {
           <div className="flex sm:flex-col md:flex-row flex-wrap md:space-x-6  mt-[50px] items-center justify-center">
             <div className="w-60 h-49">
               <img
-                src="https://omega2024.sirv.com/other_assets/silver-sponser.png"
+                src="https://omega1.sirv.com/other_assets/silver-sponser.png"
                 alt="sponsor1"
                 className="object-contain w-full h-full"
               />
@@ -254,7 +254,7 @@ export default function MainContent() {
           <div className="flex flex-wrap gap-4 items-center justify-center">
             <div className="max-w-fit rounded-full h-auto ">
               <img
-                src="https://omega2024.sirv.com/other_assets/omega.png"
+                src="https://omega1.sirv.com/other_assets/omega.png"
                 alt="omega"
                 className="max-w-full md:h-[250px] fill-current"
               />
@@ -269,28 +269,28 @@ export default function MainContent() {
           <div className="flex sm:flex-col md:flex-row flex-wrap md:space-x-6  mt-[50px] items-center justify-center">
             <div className="w-48 h-48 ">
               <img
-                src="https://omega2024.sirv.com/other_assets/rtr.jpg"
+                src="https://omega1.sirv.com/other_assets/rtr.jpg"
                 alt="sponsor1"
                 className="object-contain w-full h-full"
               />
             </div>
             <div className="w-48 h-48 ">
               <img
-                src="https://omega2024.sirv.com/other_assets/jci.jpeg "
+                src="https://omega1.sirv.com/other_assets/jci.jpeg"
                 alt="sponsor1"
                 className="object-contain w-full h-full"
               />
             </div>
             <div className="w-48 h-48 ">
               <img
-                src="https://omega2024.sirv.com/other_assets/start-insights.jpeg"
+                src="https://omega1.sirv.com/other_assets/start-insights.jpeg"
                 alt="sponsor1"
                 className="object-contain w-full h-full"
               />
             </div>
             <div className="w-48 h-48 ">
               <img
-                src="https://omega2024.sirv.com/other_assets/WEOFY.png"
+                src="https://omega1.sirv.com/other_assets/WEOFY.png"
                 alt="sponsor1"
                 className="object-contain w-full h-full"
               />
@@ -304,7 +304,7 @@ export default function MainContent() {
           <div className="flex sm:flex-col md:flex-row flex-wrap md:space-x-6  mt-[50px] items-center justify-center">
             <div className="w-48 h-48 ">
               <img
-                src="https://omega2024.sirv.com/other_assets/venkateshwara-removebg-preview.png"
+                src="https://omega1.sirv.com/other_assets/sona.jpg"
                 alt="sona_incubation"
                 className="object-contain w-full h-full"
               />
@@ -318,7 +318,7 @@ export default function MainContent() {
           <div className="flex sm:flex-col md:flex-row flex-wrap md:space-x-6  mt-[4px] items-center justify-center">
             <div className="w-60 h-49">
               <img
-                src="https://omega2024.sirv.com/other_assets/media-partner-removebg-preview.png"
+                src="https://omega1.sirv.com/other_assets/media-partner-removebg-preview.png"
                 alt="sponsor1"
                 className="object-contain w-full h-full"
               />
@@ -333,49 +333,49 @@ export default function MainContent() {
           <div className="flex sm:flex-col md:flex-row flex-wrap md:space-x-6  mt-[50px] items-center justify-center">
             <div className="w-48 h-48 ">
               <img
-                src="https://omega2024.sirv.com/other_assets/out1.jpg"
+                src="https://omega1.sirv.com/other_assets/out1.jpg"
                 alt="sponsor1"
                 className="object-contain w-full h-full"
               />
             </div>
             <div className="w-48 h-48 ">
               <img
-                src="https://omega2024.sirv.com/other_assets/care.png"
+                src="https://omega1.sirv.com/other_assets/care.png"
                 alt="sponsor1"
                 className="object-contain w-full h-full"
               />
             </div>
             <div className="w-48 h-48 ">
               <img
-                src="https://omega2024.sirv.com/other_assets/yaa_creation.png"
+                src="https://omega1.sirv.com/other_assets/yaa_creation.png"
                 alt="sponsor1"
                 className="object-contain w-full h-full"
               />
             </div>
             <div className="w-48 h-48 ">
               <img
-                src="https://omega2024.sirv.com/other_assets/teacher-association-removebg-preview.png"
+                src="https://omega1.sirv.com/other_assets/teacher-association-removebg-preview.png"
                 alt="sponsor1"
                 className="object-contain w-full h-full"
               />
             </div> 
             <div className="w-48 h-48 ">
               <img
-                src="https://omega2024.sirv.com/other_assets/TheDotStudios_LOGO_PNG.png"
+                src="https://omega1.sirv.com/other_assets/TheDotStudios_LOGO_PNG.png"
                 alt="sponsor1"
                 className="object-contain w-full h-full"
               />
             </div> 
             <div className="w-48 h-48 ">
               <img
-                src="https://omega2024.sirv.com/other_assets/adi-adravidar-removebg-preview.png"
+                src="https://omega1.sirv.com/other_assets/adi-adravidar-removebg-preview.png"
                 alt="sponsor1"
                 className="object-contain w-full h-full"
               />
             </div> 
             <div className="w-48 h-48 ">
               <img
-                src="https://omega2024.sirv.com/other_assets/Innovation%20Geeks.png"
+                src="https://omega1.sirv.com/other_assets/Innovation%20Geeks.png"
                 alt="sponsor1"
                 className="object-contain w-full h-full"
               />
@@ -390,7 +390,7 @@ export default function MainContent() {
           <div className="flex sm:flex-col md:flex-row flex-wrap md:space-x-6  mt-[50px] items-center justify-center">
             <div className="w-48 h-48 ">
               <img
-                src="https://omega2024.sirv.com/other_assets/sona.jpg"
+                src="https://omega1.sirv.com/other_assets/sona.jpg"
                 alt="sona_incubation"
                 className="object-contain w-full h-full"
               />
@@ -404,7 +404,7 @@ export default function MainContent() {
           <div className="flex sm:flex-col md:flex-row flex-wrap md:space-x-6  mt-[50px] items-center justify-center">
             <div className="w-48 h-48 ">
               <img
-                src="https://omega2024.sirv.com/other_assets/ticket.png"
+                src="https://omega1.sirv.com/other_assets/sona.jpg"
                 alt="sona_incubation"
                 className="object-contain w-full h-full"
               />

@@ -57,13 +57,13 @@ export default function HackthonSection() {
         <div className="max-w-sm md:max-w-4xl mx-auto  gap-8 grid-cols-2 md:grid-cols-4 text-center flex items-center justify-center">
           <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
             <img
-              src="https://omega2024.sirv.com/other_assets/tamilar.jpg"
+              src="https://omega1.sirv.com/other_assets/tamilar.jpg"
               className={`max-w-full fill-current h-32 w-98`}
             />
           </div>
           <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
             <img
-              src="https://omega2024.sirv.com/other_assets/growbinar1.png"
+              src="https://omega1.sirv.com/other_assets/growbinar1.png"
               className={`max-w-full fill-current h-32 w-98`}
             />
           </div>
@@ -104,7 +104,7 @@ export default function HackthonSection() {
         </p>
         <div className="relative">
           <img
-            src="https://omega2024.sirv.com/other_assets/dm_map.png"
+            src="https://omega1.sirv.com/other_assets/dm_map.png"
             alt="dharmapuri map"
             className={`block mx-auto max-w-full`}
           />

@@ -20,7 +20,7 @@ export default function ({ text, regLink, svg }) {
           className="absolute top-0  w-full h-full object-cover  z-[-1] bg-local"
         >
           <source
-            src="https://omega2024.sirv.com/hero%20video/hero_section_vid.mp4"
+            src="https://omega1.sirv.com/hero%20video/hero_section_vid.mp4"
             type="video/mp4"
           />
         </video>
